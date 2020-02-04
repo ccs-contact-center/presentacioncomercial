@@ -51,11 +51,95 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: url("assets/img/brand/cc1.jpg") no-repeat 50% 50%;
+  background: url("assets/img/brand/background.jpg") no-repeat 50% 50%;
   background-size: cover;
   z-index: -3;
 }
 
+#operaciones {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/Operaciones.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
+#implementacion {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/Implementacion.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
+
+#rrhh {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/RRHH.webp") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
+
+#capacitacion {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/Capacitacion.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
+
+#calidad {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/Calidad2.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
+
+#command {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/Commmand.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
+#bi {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/BI.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
+#tecnologia {
+
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("assets/img/brand/TI.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  z-index: -3;
+}
 #bgnoise {
   position: fixed;
   width: 100%;

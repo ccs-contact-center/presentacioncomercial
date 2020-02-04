@@ -370,163 +370,123 @@ class Index extends Component {
                   </div>
                 </div>
 
-                <div className="section">
+                <div className="section" id="operaciones">
                   <div className="content">
-                    <Zoom>
-                      <h1>Lorem ipsum </h1>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Quasi sed, nostrum debitis fugit vitae incidunt
-                        optio, recusandae unde minus minima vel tenetur aliquid
-                        similique quaerat ea harum reiciendis? Voluptas, ipsum.
-                      </p>
-                    </Zoom>
+                    <h1>Operaciones</h1>
+                    <br />
+                    <p>
+                      Siempre pensando en la mejor experiencia de usuario
+                      posible, hemos desarrollado un modelo de operaciones
+                      omnicanal, abarcando interacciones telefónicas, e-mail,
+                      redes sociales, chat y los principales servicios de
+                      mansajeria, siempre operado por especialistas en el tipo
+                      de servicio.
+                    </p>
+                  </div>
+                </div>
 
-                    <div
-                      style={{
-                        textAlign: "center",
-                        justifyContent: "center",
-                        display: "flex"
-                      }}
-                    >
-                      <Bounce up>
-                        <div
-                          style={{
-                            backgroundColor: "rgba(100,100,100,0.8)",
-                            height: "350px",
-                            width: "20%",
-                            float: "left",
-                            margin: "10px",
-                            borderRadius: "15px",
-                            padding: "3%"
-                          }}
-                        >
-                          <img
-                            src={check}
-                            alt=""
-                            style={{
-                              width: "50%",
-                              marginBottom: "20px",
-                              filter:
-                                "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(10%)"
-                            }}
-                          />
+                <div className="section" id="implementacion">
+                  <div className="content">
+                    <h1>Implementacion</h1>
+                    <br />
+                    <p>
+                      La implementación de su proyecto se realiza por fases,
+                      analizando y mejorando los procesos ya existentes y
+                      creando los necesarios para una óptima ejecución. Con
+                      breves reuniones de seguimiento, nos aseguramos de que
+                      todo esté en orden para el arranque de su servicio
+                    </p>
+                  </div>
+                </div>
 
-                          <br />
-                          <ReactFitText compressor={"1.1"}>
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Magni, necessitatibus neque. Eum
-                              tenetur nam molestias maiores sed consectetur
-                              iusto eligendi corrupti molestiae ullam. Corporis
-                              minima quisquam deleniti ducimus quo veniam!
-                            </p>
-                          </ReactFitText>
-                        </div>
-                      </Bounce>
-                      <Bounce down delay={500}>
-                        <div
-                          style={{
-                            backgroundColor: "rgba(192,3,39,0.8)",
-                            height: "350px",
-                            width: "20%",
-                            float: "left",
-                            margin: "10px",
-                            borderRadius: "15px",
-                            padding: "3%"
-                          }}
-                        >
-                          <img
-                            src={check}
-                            alt=""
-                            style={{
-                              width: "50%",
-                              marginBottom: "20px",
-                              filter:
-                                "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(10%)"
-                            }}
-                          />
-                          <br />
-                          <ReactFitText compressor="1.1">
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Magni, necessitatibus neque. Eum
-                              tenetur nam molestias maiores sed consectetur
-                              iusto eligendi corrupti molestiae ullam. Corporis
-                              minima quisquam deleniti ducimus quo veniam!
-                            </p>
-                          </ReactFitText>
-                        </div>
-                      </Bounce>
-                      <Bounce up delay={1000}>
-                        <div
-                          style={{
-                            backgroundColor: "rgba(100,100,100,0.8)",
-                            height: "350px",
-                            width: "20%",
-                            float: "left",
-                            margin: "10px",
-                            borderRadius: "15px",
-                            padding: "3%"
-                          }}
-                        >
-                          <img
-                            src={check}
-                            alt=""
-                            style={{
-                              width: "50%",
-                              marginBottom: "20px",
-                              filter:
-                                "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(10%)"
-                            }}
-                          />
-                          <br />
-                          <ReactFitText compressor="1.1">
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Magni, necessitatibus neque. Eum
-                              tenetur nam molestias maiores sed consectetur
-                              iusto eligendi corrupti molestiae ullam. Corporis
-                              minima quisquam deleniti ducimus quo veniam!
-                            </p>
-                          </ReactFitText>
-                        </div>
-                      </Bounce>
-                      <Bounce down delay={1500}>
-                        <div
-                          style={{
-                            backgroundColor: "rgba(192,3,39,0.8)",
-                            height: "350px",
-                            width: "20%",
-                            float: "left",
-                            margin: "10px",
-                            borderRadius: "15px",
-                            padding: "3%"
-                          }}
-                        >
-                          <img
-                            src={check}
-                            alt=""
-                            style={{
-                              width: "50%",
-                              marginBottom: "20px",
-                              filter:
-                                "invert(100%) sepia(0%) saturate(7500%) hue-rotate(12deg) brightness(104%) contrast(103%) opacity(10%)"
-                            }}
-                          />
-                          <br />
-                          <ReactFitText compressor="1.1">
-                            <p>
-                              Lorem ipsum dolor sit amet, consectetur
-                              adipisicing elit. Magni, necessitatibus neque. Eum
-                              tenetur nam molestias maiores sed consectetur
-                              iusto eligendi corrupti molestiae ullam. Corporis
-                              minima quisquam deleniti ducimus quo veniam!
-                            </p>
-                          </ReactFitText>
-                        </div>
-                      </Bounce>
-                    </div>
+                <div className="section" id="rrhh">
+                  <div className="content">
+                    <h1>RRHH</h1>
+                    <br />
+                    <p>
+                      Seleccionamos a nuestro personal de acuerdo al tipo de
+                      servicio requerido, analizando las competencias y
+                      habilidades necesarias para un excelente performance y
+                      siguiendo un proceso de actualización y mejora continua en
+                      los perfiles; cuidamos a nuestro staff de la misma manera
+                      que cuidamos a sus usuarios.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="section" id="capacitacion">
+                  <div className="content">
+                    <h1>Capacitación</h1>
+                    <br />
+                    <p>
+                      Nuestros planes de capacitación están basados en los
+                      distintos modelos pedagógicos, asegurando el dominio de la
+                      información requerida para una operación impecable. A
+                      través de herramientas tecnológicas, brindamos
+                      capacitación continua de habilidades operativas para el
+                      desarrollo profesional de nuestros colaboradores.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="section" id="calidad">
+                  <div className="content">
+                    <h1>Calidad</h1>
+                    <br />
+                    <p>
+                      La metodología de calidad de CCS, nos permite evaluar de
+                      acuerdo a necesidad, enfocándonos en las areas de
+                      oportunidad críticas que podrían perjudicar la eficiencia
+                      y experiencia de usuario final. Con formularios de
+                      evaluación dedicados a cada canal atendido, aseguramos que
+                      sus clientes reciban siempre un servicio de clase mundial.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="section" id="command">
+                  <div className="content">
+                    <h1>Command Center</h1>
+                    <br />
+                    <p>
+                      El monitoreo de su servicio en tiempo real y el posterior
+                      análisis y reporting de la información generada es muy
+                      importante para detectar tendencias y proporcionar
+                      información fiable y oportuna que le ayude a tomar
+                      decisiones de negocio.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="section" id="bi">
+                  <div className="content">
+                    <h1>Business Intelligence</h1>
+                    <br />
+                    <p>
+                      Realizamos el análisis de los datos de su servicio para
+                      proporcionarle un staffing adecuado; determinamos perfiles
+                      de clientes ideales e impulsamos la fidelización y
+                      recurrencia en el consumo de sus servicios, siempre
+                      enfocados en la satisfacción y experiencia final de sus
+                      usuarios.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="section" id="tecnologia">
+                  <div className="content">
+                    <h1>Tecnología</h1>
+                    <br />
+                    <p>
+                      Contamos con aplicaciones web y móviles para comunicarle
+                      todos los datos de su operación en tiempo real, de manera
+                      eficaz y segura.
+                    </p>
+                    <p>
+                      Nuestros partners tecnológicos son líderes en la
+                      industria, proporcionando servicios fiables, seguros,
+                      modernos y con alta disponibilidad.
+                    </p>
                   </div>
                 </div>
                 {/*############################################################# AREAS #############################################################*/}
