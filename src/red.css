@@ -51,13 +51,21 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: url("assets/img/brand/background.jpg") no-repeat 50% 50%;
-  background-size: cover;
+  bottom: 0;
+  right: 0;
+  background: url("assets/img/brand/fondocolor.mp4");
+  background-color: black;
+  background-position: center center;
+  background-size: contain;
+  background-size: 100% 100%;
+  object-fit: cover; /*cover video background */
   z-index: -3;
+  opacity: 50%;
+
+  overflow: hidden;
 }
 
 #operaciones {
-
   width: 100%;
   height: 100%;
   left: 0;
@@ -67,7 +75,6 @@ h3 {
   z-index: -3;
 }
 #implementacion {
-
   width: 100%;
   height: 100%;
   left: 0;
@@ -78,7 +85,6 @@ h3 {
 }
 
 #rrhh {
-
   width: 100%;
   height: 100%;
   left: 0;
@@ -89,7 +95,6 @@ h3 {
 }
 
 #capacitacion {
-
   width: 100%;
   height: 100%;
   left: 0;
@@ -100,7 +105,6 @@ h3 {
 }
 
 #calidad {
-
   width: 100%;
   height: 100%;
   left: 0;
@@ -111,7 +115,6 @@ h3 {
 }
 
 #command {
-
   width: 100%;
   height: 100%;
   left: 0;
@@ -121,7 +124,6 @@ h3 {
   z-index: -3;
 }
 #bi {
-
   width: 100%;
   height: 100%;
   left: 0;
@@ -131,12 +133,12 @@ h3 {
   z-index: -3;
 }
 #tecnologia {
-
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
   background: url("assets/img/brand/TI.jpg") no-repeat 50% 50%;
+  backdrop-filter: grayscale(0.5) opacity(0.8);
   background-size: cover;
   z-index: -3;
 }

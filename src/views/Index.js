@@ -16,7 +16,7 @@ import icon1 from "../assets/img/icons/1.png";
 import icon2 from "../assets/img/icons/2.png";
 import icon3 from "../assets/img/icons/3.png";
 import icon4 from "../assets/img/icons/4.png";
-//import pelicula from "../assets/img/fondocolor.mp4";
+import pelicula from "../assets/img/brand/fondocolor.mp4";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 import expe from "../assets/img/experiencia.png";
@@ -34,9 +34,9 @@ class Index extends Component {
         <div id="bg"></div>
         <div id="bgnoise"></div>
 
-        {/*<video id="bg" loop muted autoPlay>
+        <video id="bg" loop muted autoPlay>
           <source src={pelicula} type="video/mp4" />
-    </video>*/}
+    </video>
 
         <ReactFullpage
           licenseKey={"FF3E03E0-2607429E-8207D2C5-8D8301B1"}
@@ -473,22 +473,24 @@ class Index extends Component {
                   </div>
                 </div>
 
-                <div className="section" id="tecnologia">
-                  <div className="content">
-                    <h1>Tecnología</h1>
-                    <br />
-                    <p>
-                      Contamos con aplicaciones web y móviles para comunicarle
-                      todos los datos de su operación en tiempo real, de manera
-                      eficaz y segura.
-                    </p>
-                    <p>
-                      Nuestros partners tecnológicos son líderes en la
-                      industria, proporcionando servicios fiables, seguros,
-                      modernos y con alta disponibilidad.
-                    </p>
+                <Zoom duration={50}>
+                  <div className="section" id="tecnologia">
+                    <div className="content">
+                      <h1>Tecnología</h1>
+                      <br />
+                      <p>
+                        Contamos con aplicaciones web y móviles para comunicarle
+                        todos los datos de su operación en tiempo real, de
+                        manera eficaz y segura.
+                      </p>
+                      <p>
+                        Nuestros partners tecnológicos son líderes en la
+                        industria, proporcionando servicios fiables, seguros,
+                        modernos y con alta disponibilidad.
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </Zoom>
                 {/*############################################################# AREAS #############################################################*/}
               </ReactFullpage.Wrapper>
             );
