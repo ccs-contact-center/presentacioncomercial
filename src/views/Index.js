@@ -5,7 +5,14 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 
-import Informacion from "./Areas/Informacion";
+import Grupo from "./Areas/Grupo";
+import SIMIndex from "./Areas/SIM_Index";
+import SIMBrands from "./Areas/SIM_Brands";
+import SIMFacturacion from "./Areas/SIM_Facturacion";
+import SIMClientes from "./Areas/SIM_Clientes";
+import CCSIndex from "./Areas/CCS_Index";
+import Socios from "./Areas/CCS_Socios";
+import CCSServicios from "./Areas/CCS_Servicios";
 
 class Index extends Component {
   onLeave(origin, destination, direction) {
@@ -48,11 +55,16 @@ class Index extends Component {
                         filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
                       }}
                     />
-
-                    <h1>Presentación Comercial</h1>
                   </div>
                 </div>
-                <Informacion />
+                <Grupo />
+                <SIMIndex />
+                <SIMBrands />
+                <SIMFacturacion />
+                <SIMClientes />
+                <CCSIndex />
+                <Socios />
+                <CCSServicios />
 
                 {/*############################################################# AREAS #############################################################*/}
               </ReactFullpage.Wrapper>
