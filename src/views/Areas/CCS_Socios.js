@@ -25,7 +25,7 @@ class Comercial extends Component {
                     alt="Jeronimo Fernandez"
                     src={avatar1}
                     className="avatar"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Socios/1")}
                   />
                   <p>Jeronimo Fernandez Senderos</p>
                 </div>
@@ -34,7 +34,7 @@ class Comercial extends Component {
                     alt="Vivian Cheja"
                     src={avatar2}
                     className="avatar"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Socios/2")}
                   />
                   <p>Vivian Cheja Dabbah</p>
                 </div>

@@ -24,7 +24,7 @@ class Comercial extends Component {
                   alt="SIM"
                   src={SIM}
                   className="avatarBrand"
-                  onClick={() => (window.location.href = "/#Indice/1")}
+                  onClick={() => (window.location.href = "/#GrupoSIM")}
                 />
                 <p>SIM</p>
               </div>
@@ -33,7 +33,7 @@ class Comercial extends Component {
                   alt="Vivian Cheja"
                   src={CCS}
                   className="avatarBrand"
-                  onClick={() => (window.location.href = "/#Indice/1")}
+                  onClick={() => (window.location.href = "/#CCS")}
                 />
                 <p>CCS</p>
               </div>

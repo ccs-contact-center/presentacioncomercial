@@ -29,7 +29,7 @@ class Comercial extends Component {
                     alt="Outsourcing"
                     src={S1}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Productos/1")}
                   />
                   <p>Outsourcing</p>
                 </div>
@@ -38,7 +38,7 @@ class Comercial extends Component {
                     alt="Cosourcing"
                     src={S2}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Productos/2")}
                   />
                   <p>Cosourcing</p>
                 </div>
@@ -47,7 +47,7 @@ class Comercial extends Component {
                     alt="Consultoría"
                     src={S3}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Productos/3")}
                   />
                   <p>Consultoría</p>
                 </div>
@@ -61,7 +61,7 @@ class Comercial extends Component {
                     alt="Calidad"
                     src={S4}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Productos/4")}
                   />
                   <p>Calidad</p>
                 </div>
@@ -70,7 +70,7 @@ class Comercial extends Component {
                     alt="Capacitación"
                     src={S5}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Productos/5")}
                   />
                   <p>Capacitación</p>
                 </div>
@@ -79,7 +79,7 @@ class Comercial extends Component {
                     alt="Business Intelligence"
                     src={S6}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Indice/1")}
+                    onClick={() => (window.location.href = "/#Productos/6")}
                   />
                   <p>Business Intelligence</p>
                 </div>

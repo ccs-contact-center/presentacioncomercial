@@ -13,6 +13,9 @@ import SIMClientes from "./Areas/SIM_Clientes";
 import CCSIndex from "./Areas/CCS_Index";
 import Socios from "./Areas/CCS_Socios";
 import CCSServicios from "./Areas/CCS_Servicios";
+import CCSCertificaciones from "./Areas/CCS_Certificaciones";
+import CCSTecnologia from "./Areas/CCS_Tecnologia";
+import CCSClientes from "./Areas/CCS_Clientes";
 
 class Index extends Component {
   onLeave(origin, destination, direction) {
@@ -26,16 +29,29 @@ class Index extends Component {
         <div id="bg"></div>
         <div id="bgnoise"></div>
 
-        <video id="bg" loop muted autoPlay>
+        {/*<video id="bg" loop muted autoPlay>
           <source src={pelicula} type="video/mp4" />
-    </video>
+    </video>*/}
 
         <ReactFullpage
           licenseKey={"FF3E03E0-2607429E-8207D2C5-8D8301B1"}
           scrollingSpeed={500} /* Options here */
           onLeave={this.onLeave.bind(this)}
           verticalCentered={false}
-          anchors={["Inicio", "Indice"]}
+          anchors={[
+            "Portada",
+            "Nosotros",
+            "GrupoSIM",
+            "SimBrands",
+            "Facturacion",
+            "ClientesSim",
+            "CCS",
+            "Socios",
+            "Productos",
+            "Certificaciones",
+            "Tecnologia",
+            "Clientes"
+          ]}
           render={({ state, fullpageApi }) => {
             return (
               <ReactFullpage.Wrapper>
@@ -65,6 +81,9 @@ class Index extends Component {
                 <CCSIndex />
                 <Socios />
                 <CCSServicios />
+                <CCSCertificaciones />
+                <CCSTecnologia />
+                <CCSClientes />
 
                 {/*############################################################# AREAS #############################################################*/}
               </ReactFullpage.Wrapper>
