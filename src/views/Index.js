@@ -29,9 +29,9 @@ class Index extends Component {
         <div id="bg"></div>
         <div id="bgnoise"></div>
 
-        {/*<video id="bg" loop muted autoPlay>
+        <video id="bg" loop muted autoPlay>
           <source src={pelicula} type="video/mp4" />
-    </video>*/}
+    </video>
 
         <ReactFullpage
           licenseKey={"FF3E03E0-2607429E-8207D2C5-8D8301B1"}

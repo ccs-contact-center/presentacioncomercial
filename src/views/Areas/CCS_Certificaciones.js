@@ -36,7 +36,9 @@ class Comercial extends Component {
                     alt="Outsourcing"
                     src={C1W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Certificaciones/1")}
+                    onClick={() =>
+                      (window.location.href = "/#Certificaciones/1")
+                    }
                   />
                   <p>ISO 9001</p>
                 </div>
@@ -45,7 +47,9 @@ class Comercial extends Component {
                     alt="Cosourcing"
                     src={C2W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Certificaciones/2")}
+                    onClick={() =>
+                      (window.location.href = "/#Certificaciones/2")
+                    }
                   />
                   <p>ISO 27001</p>
                 </div>
@@ -54,7 +58,9 @@ class Comercial extends Component {
                     alt="Consultoría"
                     src={C3W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Certificaciones/3")}
+                    onClick={() =>
+                      (window.location.href = "/#Certificaciones/3")
+                    }
                   />
                   <p>ITIL</p>
                 </div>
@@ -68,7 +74,9 @@ class Comercial extends Component {
                     alt="Calidad"
                     src={C4W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Certificaciones/4")}
+                    onClick={() =>
+                      (window.location.href = "/#Certificaciones/4")
+                    }
                   />
                   <p>COPC</p>
                 </div>
@@ -77,7 +85,9 @@ class Comercial extends Component {
                     alt="Capacitación"
                     src={C5W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Certificaciones/5")}
+                    onClick={() =>
+                      (window.location.href = "/#Certificaciones/5")
+                    }
                   />
                   <p>STPS</p>
                 </div>
@@ -86,7 +96,9 @@ class Comercial extends Component {
                     alt="Business Intelligence"
                     src={C6W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Certificaciones/6")}
+                    onClick={() =>
+                      (window.location.href = "/#Certificaciones/6")
+                    }
                   />
                   <p>CONOCER</p>
                 </div>
@@ -104,6 +116,12 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+            <br />
+            <br />
+            <p>
+              La certificación ISO 9001, garantiza que nuestros servicios tienen
+              una alta calidad
+            </p>
           </div>
           <div className="slide">
             <img
@@ -115,6 +133,13 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+            <br />
+            <br />
+            <p>
+              La seguridad de tu información es fundamental para nosotros, por
+              lo cual contamos con la certificación ISO 27001, que garantiza la
+              seguridad de tus datos
+            </p>
           </div>
           <div className="slide">
             <img
@@ -126,6 +151,14 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+            <br />
+            <br />
+            <p>
+              Contamos con personal certificado en ITIL, cuyo enfoque hemos
+              adoptado en la Gestión de nuestros servicios de TI, para alcanzar
+              los objetivos estratégicos de negocio y satisfacer las necesidades
+              del usuario.
+            </p>
           </div>
           <div className="slide">
             <img
@@ -137,6 +170,14 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+            <br />
+            <br />
+            <p>
+              Tenemos personal certificado en COPC. Integramos conceptos y
+              procesos de dicha norma para mejorar la calidad en los
+              procedimientos operativos, además de gestionar, medir y capacitar
+              a nuestro personal.
+            </p>
           </div>
           <div className="slide">
             <img
@@ -148,6 +189,12 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+            <br />
+            <br />
+            <p>
+              Nustros instructores están certificados ante la Secretaría de
+              Trabajo y Previsión Social (STPS)
+            </p>
           </div>
           <div className="slide">
             <img
@@ -159,6 +206,12 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+            <br />
+            <br />
+            <p>
+              La certificación CONOCER por competencias, garantiza altos
+              estandares en capacitación, evaluacion y certificación
+            </p>
           </div>
         </div>
       </div>

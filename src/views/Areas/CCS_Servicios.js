@@ -88,22 +88,72 @@ class Comercial extends Component {
           </div>
 
           <div className="slide">
-            <h1>Outsourcing</h1>
+            <Zoom cascade left>
+              <h1>Outsourcing</h1>
+              <p>
+                Ejecutamos la estrategia para alcanzar tus objetivos y medimos
+                con precisión tus resultados.
+              </p>
+              <br />
+              <br />
+              <img src={S1} alt="" />
+            </Zoom>
           </div>
           <div className="slide">
-            <h1>Cosourcing</h1>
+            <Zoom cascade left>
+              <h1>Cosourcing</h1>
+              <p>Nuestra experiencia en tus instalaciones.</p>
+              <br />
+              <br />
+              <img src={S2} alt="" />
+            </Zoom>
           </div>
           <div className="slide">
-            <h1>Consultoría</h1>
+            <Zoom cascade left>
+              <h1>Consultoría</h1>
+              <p>
+                Te ayudamos a competir en la industria y a generar planes
+                estratégicos de mejora.
+              </p>
+              <br />
+              <br />
+              <img src={S3} alt="" />
+            </Zoom>
           </div>
           <div className="slide">
-            <h1>Calidad</h1>
+            <Zoom cascade left>
+              <h1>Calidad</h1>
+              <p>
+                Establecemos los procesos para alcanzar la excelencia en el
+                customer experience.
+              </p>
+              <br />
+              <br />
+              <img src={S4} alt="" />
+            </Zoom>
           </div>
           <div className="slide">
-            <h1>Capacitación</h1>
+            <Zoom cascade left>
+              <h1>Capacitación</h1>
+              <p>
+                Entendemos a tu personal y aportamos la especialización y el
+                expertis que necesita para desarrollarse.
+              </p>
+              <br />
+              <br />
+              <img src={S5} alt="" />
+            </Zoom>
           </div>
           <div className="slide">
-            <h1>Business Intelligence</h1>
+            <Zoom cascade left>
+              <h1>Business Intelligence</h1>
+              <p>
+                Con la información de tu mercado te proponemos grandes caminos.
+              </p>
+              <br />
+              <br />
+              <img src={S6} alt="" />
+            </Zoom>
           </div>
         </div>
       </div>

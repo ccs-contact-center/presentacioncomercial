@@ -53,7 +53,7 @@ h3 {
   top: 0;
   bottom: 0;
   right: 0;
-  background: url("assets/img/backgrounds/background.jpg");
+  background: url("assets/img/backgrounds/fondocolor.mp4");
   background-color: black;
   background-position: center center;
   background-size: contain;
@@ -316,4 +316,43 @@ hr {
 .avatarContent p {
   font-size: 2em;
   font-weight: 400;
+}
+
+.avatarClientsSmall {
+  border: solid 2px rgba(255, 255, 255, 0.7);
+  filter: saturate(0%);
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+  margin: 5vw;
+  width: 5vw !important;
+  height: 5vw !important;
+}
+
+.avatarClientsS {
+  border: solid 2px rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+  margin: 0.5vw;
+  margin-left: 3vw;
+  width: 4vw !important;
+  height: 4vw !important;
+  background-color: white;
+}
+
+.avatarClientsM {
+  border: solid 2px rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+  margin: 0.5vw;
+  width: 6vw !important;
+  height: 6vw !important;
+  margin-left: 3vw;
+  background-color: white;
+}
+
+.avatarClientsL {
+  border: solid 2px rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+  margin: 0.5vw;
+  width: 8vw !important;
+  height: 8vw !important;
+  margin-left: 3vw;
+  background-color: white;
 }
