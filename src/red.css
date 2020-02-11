@@ -53,7 +53,7 @@ h3 {
   top: 0;
   bottom: 0;
   right: 0;
-  background: url("assets/img/backgrounds/fondocolor.mp4");
+  background: url("assets/img/backgrounds/background.jpg");
   background-color: black;
   background-position: center center;
   background-size: contain;
@@ -297,13 +297,21 @@ hr {
 .avatarS {
   border: solid 2px rgba(255, 255, 255, 0.7);
   box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
-  width: 10vw !important;
-  height: 10vw !important;
-  margin-bottom: 2vw;
+  width: 11vw !important;
+  height: 11vw !important;
+  margin-bottom: 1vw;
   margin-left: 3vw;
   margin-right: 3vw;
 }
 
+.avatarSE {
+  border: solid 2px rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+  width: 10vw !important;
+  height: 10vw !important;
+  margin: 1vw 7vw 1vw 7vw;
+  background-color: rgba(255, 255, 255, 0.7);
+}
 .avatarBig {
   border: solid 2px rgba(255, 255, 255, 0.7);
   filter: saturate(0%);
@@ -355,4 +363,19 @@ hr {
   height: 8vw !important;
   margin-left: 3vw;
   background-color: white;
+}
+
+li {
+  list-style: square;
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5vw;
+  font-weight: 330;
+}
+li:before {
+  font-family: "Raleway", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  display: inline-block;
+  height: 50px;
+  width: 50px;
 }

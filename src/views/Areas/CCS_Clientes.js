@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../../index.css";
 import "react-circular-progressbar/dist/styles.css";
 
-import { Avatar } from "@material-ui/core";
+//import { Avatar } from "@material-ui/core";
 
 import i1 from "../../assets/img/clientes_ccs/ace_seguros.png";
 import i2 from "../../assets/img/clientes_ccs/ado.png";
@@ -50,71 +50,82 @@ class Comercial extends Component {
     return (
       <div className="section">
         <div className="content">
+          <div className="slide">
+          
           <Bounce>
             <h1>Clientes</h1>
           </Bounce>
-          <Bounce left cascade duration={1000}>
-            <div className="horizontalContent">
-              <Avatar src={i1} className="avatarClientsS" />
-              <Avatar src={i2} className="avatarClientsL" />
-              <Avatar src={i3} className="avatarClientsS" />
-              <Avatar src={i4} className="avatarClientsS" />
-              <Avatar src={i5} className="avatarClientsM" />
-              <Avatar src={i6} className="avatarClientsS" />
-            </div>
+          <br/> <br/>
+          <div style={{backgroundColor:"rgba(255,255,255,0.2)", padding:"1vw"}}>
+          <Bounce cascade left>
+          <div className="horizontalContent">
+            <img src={i1} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i2} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i3} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i4} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i5} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i6} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i7} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+          </div>
+          <div className="horizontalContent">
+            <img src={i8} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i9} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i10} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i11} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i12} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i13} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i14} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+          </div>
+          <div className="horizontalContent">
+            <img src={i15} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i16} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i17} alt="" style={{ width: "15%", height: "15%", margin:"1.5vw" }} />
+            <img src={i18} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i19} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i20} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i21} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+          </div>
           </Bounce>
-          <Bounce up cascade duration={1000}>
-            <div className="horizontalContent">
-              <Avatar src={i7} className="avatarClientsS" />
-              <Avatar src={i8} className="avatarClientsL" />
-              <Avatar src={i9} className="avatarClientsS" />
-              <Avatar src={i10} className="avatarClientsS" />
-            </div>
+          </div>
+          </div>
+         
+          <div className="slide">
+          <Bounce>
+            <h1>Clientes</h1>
           </Bounce>
-          <Bounce right cascade duration={1000}>
-            <div className="horizontalContent">
-              <Avatar src={i11} className="avatarClientsS" />
-              <Avatar src={i12} className="avatarClientsM" />
-              <Avatar src={i13} className="avatarClientsS" />
-              <Avatar src={i14} className="avatarClientsL" />
-              <Avatar src={i15} className="avatarClientsM" />
-              <Avatar src={i16} className="avatarClientsS" />
-              <Avatar src={i17} className="avatarClientsS" />
-            </div>
+          <br/> <br/>
+          <br/> <br/>
+          <div style={{backgroundColor:"rgba(255,255,255,0.2)", padding:"1vw"}}>
+          <Bounce cascade left>
+          <div className="horizontalContent">
+            <img src={i22} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i23} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i24} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i25} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i26} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i27} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i28} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+          </div>
+          <div className="horizontalContent">
+            <img src={i29} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i30} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i31} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i32} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i33} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i34} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i35} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+          </div>
+          <div className="horizontalContent">
+            <img src={i36} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <img src={i37} alt="" style={{ width: "7%", height: "7%", margin:"1.5vw" }} />
+            <img src={i38} alt="" style={{ width: "6%", height: "6%", margin:"1.5vw" }} />
+
+          </div>
+        
           </Bounce>
-          <Bounce down cascade duration={1000}>
-            <div className="horizontalContent">
-              <Avatar src={i18} className="avatarClientsM" />
-              <Avatar src={i19} className="avatarClientsS" />
-              <Avatar src={i20} className="avatarClientsS" />
-              <Avatar src={i21} className="avatarClientsM" />
-              <Avatar src={i22} className="avatarClientsL" />
-              <Avatar src={i23} className="avatarClientsS" />
-            </div>
-          </Bounce>
-          <Bounce up cascade duration={1000}>
-            <div className="horizontalContent">
-              <Avatar src={i24} className="avatarClientsS" />
-              <Avatar src={i25} className="avatarClientsM" />
-              <Avatar src={i26} className="avatarClientsS" />
-              <Avatar src={i27} className="avatarClientsM" />
-              <Avatar src={i28} className="avatarClientsS" />
-              <Avatar src={i29} className="avatarClientsL" />
-              <Avatar src={i30} className="avatarClientsS" />
-            </div>
-          </Bounce>
-          <Bounce left cascade duration={1000}>
-            <div className="horizontalContent">
-              <Avatar src={i31} className="avatarClientsS" />
-              <Avatar src={i32} className="avatarClientsM" />
-              <Avatar src={i33} className="avatarClientsS" />
-              <Avatar src={i34} className="avatarClientsS" />
-              <Avatar src={i35} className="avatarClientsM" />
-              <Avatar src={i36} className="avatarClientsS" />
-              <Avatar src={i37} className="avatarClientsS" />
-              <Avatar src={i38} className="avatarClientsS" />
-            </div>
-          </Bounce>
+          
+          </div>
+          </div>
         </div>
       </div>
     );

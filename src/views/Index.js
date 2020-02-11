@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 
-import pelicula from "../assets/img/backgrounds/fondocolor.mp4";
+//import pelicula from "../assets/img/backgrounds/fondocolorsmall.mp4";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 
@@ -23,15 +23,16 @@ class Index extends Component {
     // arguments are mapped in order of fullpage.js callback arguments do something
     // with the event
   }
+
   render() {
     return (
       <div id="slideshare_root">
         <div id="bg"></div>
         <div id="bgnoise"></div>
 
-        <video id="bg" loop muted autoPlay>
+        {/*<video id="bg" loop muted autoPlay>
           <source src={pelicula} type="video/mp4" />
-    </video>
+    </video>}*/}
 
         <ReactFullpage
           licenseKey={"FF3E03E0-2607429E-8207D2C5-8D8301B1"}
