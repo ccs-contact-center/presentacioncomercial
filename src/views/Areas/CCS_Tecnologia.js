@@ -8,6 +8,8 @@ import C1W from "../../assets/img/partners/white/avaya.png";
 import C2W from "../../assets/img/partners/white/genesys.png";
 import C3W from "../../assets/img/partners/white/mitrol.png";
 import C4W from "../../assets/img/partners/white/s1gateway.png";
+import C5W from "../../assets/img/brand/CCS_Blanco.png";
+
 
 import C1T from "../../assets/img/partners/transparent/avaya.png";
 import C2T from "../../assets/img/partners/transparent/genesys.png";
@@ -45,6 +47,15 @@ class Comercial extends Component {
                   />
                   <p>Genesys</p>
                 </div>
+                <div className="avatarcontent">
+                  <Avatar
+                    alt="Cosourcing"
+                    src={C5W}
+                    className="avatarS"
+                    onClick={() => (window.location.href = "/#Tecnologia/2")}
+                  />
+                  <p>CCS Mobile Reports</p>
+                </div>
               </div>
             </Zoom>
 
@@ -67,6 +78,15 @@ class Comercial extends Component {
                     onClick={() => (window.location.href = "/#Tecnologia/4")}
                   />
                   <p>S1 Gateway</p>
+                </div>
+                <div className="avatarcontent">
+                  <Avatar
+                    alt="Capacitación"
+                    src={C5W}
+                    className="avatarS"
+                    onClick={() => (window.location.href = "/#Tecnologia/4")}
+                  />
+                  <p>CCS Web Dashboard</p>
                 </div>
               </div>
             </Zoom>
