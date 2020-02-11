@@ -10,7 +10,7 @@ import CCS from "../../assets/img/brand/CCS_Blanco.png";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="implementacion">
         <div className="content">
           <Zoom>
             <h1>Nosotros</h1>

@@ -8,7 +8,7 @@ import SIM from "../../assets/img/brand/SIM_Transparente.png";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="implementacion">
         <div className="content">
           <Zoom>
             <h1>Grupo SIM</h1>

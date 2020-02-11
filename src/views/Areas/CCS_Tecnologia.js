@@ -19,7 +19,7 @@ import C4T from "../../assets/img/partners/transparent/s1gateway.png";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="tecnologia">
         <div className="content">
           <div className="slide">
             <Zoom>

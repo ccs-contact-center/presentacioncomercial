@@ -14,7 +14,7 @@ import S6 from "../../assets/img/services/6.jpg";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="calidad2">
         <div className="content">
           <div className="slide">
             <Zoom>

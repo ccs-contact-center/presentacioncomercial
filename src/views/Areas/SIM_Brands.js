@@ -13,7 +13,7 @@ import { Avatar } from "@material-ui/core";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="command">
         <div className="content">
           <div className="slide">
             <Zoom>

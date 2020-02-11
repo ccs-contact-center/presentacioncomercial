@@ -48,83 +48,241 @@ import Bounce from "react-reveal/Bounce";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="command">
         <div className="content">
           <div className="slide">
-          
-          <Bounce>
-            <h1>Clientes</h1>
-          </Bounce>
-          <br/> <br/>
-          <div style={{backgroundColor:"rgba(255,255,255,0.2)", padding:"1vw"}}>
-          <Bounce cascade left>
-          <div className="horizontalContent">
-            <img src={i1} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i2} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i3} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i4} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i5} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i6} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i7} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
+            <Bounce>
+              <h1>Clientes</h1>
+            </Bounce>
+            <br /> <br />
+            <div
+              style={{
+                backgroundColor: "rgba(255,255,255,0.2)",
+                padding: "1vw"
+              }}
+            >
+              <Bounce cascade left>
+                <div className="horizontalContent">
+                  <img
+                    src={i1}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i2}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i3}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i4}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i5}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i6}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i7}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                </div>
+                <div className="horizontalContent">
+                  <img
+                    src={i8}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i9}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i10}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i11}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i12}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i13}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i14}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                </div>
+                <div className="horizontalContent">
+                  <img
+                    src={i15}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i16}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i17}
+                    alt=""
+                    style={{ width: "15%", height: "15%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i18}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i19}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i20}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i21}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                </div>
+              </Bounce>
+            </div>
           </div>
-          <div className="horizontalContent">
-            <img src={i8} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i9} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i10} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i11} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i12} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i13} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i14} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-          </div>
-          <div className="horizontalContent">
-            <img src={i15} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i16} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i17} alt="" style={{ width: "15%", height: "15%", margin:"1.5vw" }} />
-            <img src={i18} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i19} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i20} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i21} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-          </div>
-          </Bounce>
-          </div>
-          </div>
-         
-          <div className="slide">
-          <Bounce>
-            <h1>Clientes</h1>
-          </Bounce>
-          <br/> <br/>
-          <br/> <br/>
-          <div style={{backgroundColor:"rgba(255,255,255,0.2)", padding:"1vw"}}>
-          <Bounce cascade left>
-          <div className="horizontalContent">
-            <img src={i22} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i23} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i24} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i25} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i26} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i27} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i28} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-          </div>
-          <div className="horizontalContent">
-            <img src={i29} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i30} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i31} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i32} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i33} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i34} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i35} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-          </div>
-          <div className="horizontalContent">
-            <img src={i36} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i37} alt="" style={{ width: "7%", height: "7%", margin:"1.5vw" }} />
-            <img src={i38} alt="" style={{ width: "6%", height: "6%", margin:"1.5vw" }} />
 
-          </div>
-        
-          </Bounce>
-          
-          </div>
+          <div className="slide">
+            <Bounce>
+              <h1>Clientes</h1>
+            </Bounce>
+            <br /> <br />
+            <br /> <br />
+            <div
+              style={{
+                backgroundColor: "rgba(255,255,255,0.2)",
+                padding: "1vw"
+              }}
+            >
+              <Bounce cascade left>
+                <div className="horizontalContent">
+                  <img
+                    src={i22}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i23}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i24}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i25}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i26}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i27}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i28}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                </div>
+                <div className="horizontalContent">
+                  <img
+                    src={i29}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i30}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i31}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i32}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i33}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i34}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i35}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                </div>
+                <div className="horizontalContent">
+                  <img
+                    src={i36}
+                    alt=""
+                    style={{ width: "10%", height: "10%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i37}
+                    alt=""
+                    style={{ width: "7%", height: "7%", margin: "1.5vw" }}
+                  />
+                  <img
+                    src={i38}
+                    alt=""
+                    style={{ width: "6%", height: "6%", margin: "1.5vw" }}
+                  />
+                </div>
+              </Bounce>
+            </div>
           </div>
         </div>
       </div>

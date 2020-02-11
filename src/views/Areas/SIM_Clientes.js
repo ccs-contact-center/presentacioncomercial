@@ -48,7 +48,7 @@ import Bounce from "react-reveal/Bounce";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="command">
         <div className="content">
           <div className="slide">
           
@@ -56,7 +56,7 @@ class Comercial extends Component {
             <h1>Clientes</h1>
           </Bounce>
           <br/> <br/>
-          <div style={{backgroundColor:"rgba(255,255,255,0.2)", padding:"1vw"}}>
+          <div style={{backgroundColor:"rgba(144,144,144,0.5)", padding:"1vw"}}>
           <Bounce cascade left>
           <div className="horizontalContent">
             <img src={i1} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
@@ -95,7 +95,7 @@ class Comercial extends Component {
           </Bounce>
           <br/> <br/>
           <br/> <br/>
-          <div style={{backgroundColor:"rgba(255,255,255,0.2)", padding:"1vw"}}>
+          <div style={{backgroundColor:"rgba(144,144,144,0.5)", padding:"1vw"}}>
           <Bounce cascade left>
           <div className="horizontalContent">
             <img src={i22} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
