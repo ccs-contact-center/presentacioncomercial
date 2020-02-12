@@ -5,7 +5,7 @@ import ReactFullpage from '../assets/packages/@fullpage/react-fullpage'
 import pelicula from "../assets/img/backgrounds/fondocolorsmall.mp4";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
-import 'fullpage.js/dist/fullpage.extensions.min.js';
+
 import Grupo from "./Areas/Grupo";
 import SIMIndex from "./Areas/SIM_Index";
 import SIMBrands from "./Areas/SIM_Brands";
@@ -17,8 +17,6 @@ import CCSServicios from "./Areas/CCS_Servicios";
 import CCSCertificaciones from "./Areas/CCS_Certificaciones";
 import CCSTecnologia from "./Areas/CCS_Tecnologia";
 import CCSClientes from "./Areas/CCS_Clientes";
-
-import 'fullpage.js/vendors/scrolloverflow.min'
 
 
 class Index extends Component {
