@@ -21,7 +21,7 @@ import C6T from "../../assets/img/certificaciones/transparent/conocer.png";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section" id="bi">
+      <div className="section" id="operaciones">
         <div className="content">
           <div className="slide">
             <Zoom>

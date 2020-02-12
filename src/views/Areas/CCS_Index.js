@@ -8,7 +8,7 @@ import CCS from "../../assets/img/brand/logo.png";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section">
+      <div className="section" id="operaciones">
         <div className="content">
           <Zoom>
             <img

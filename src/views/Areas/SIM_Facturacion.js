@@ -9,7 +9,7 @@ import people from "../../assets/img/icons/people.png";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section" id="command">
+      <div className="section" id="implementacion">
         <div className="content">
           <div className="info-box">
             <Zoom up delay={250}>

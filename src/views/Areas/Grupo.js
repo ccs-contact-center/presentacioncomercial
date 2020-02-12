@@ -26,7 +26,7 @@ class Comercial extends Component {
                   className="avatarBrand"
                   onClick={() => (window.location.href = "/#GrupoSIM")}
                 />
-                <p>SIM</p>
+                <p>Información del Grupo</p>
               </div>
               <div className="avatarContent">
                 <Avatar

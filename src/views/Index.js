@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import ReactFullpage from "@fullpage/react-fullpage";
-
-//import pelicula from "../assets/img/backgrounds/fondocolorsmall.mp4";
+//import ReactFullpage from "@fullpage/react-fullpage";
+import ReactFullpage from '../assets/packages/@fullpage/react-fullpage'
+//
+import pelicula from "../assets/img/backgrounds/fondocolorsmall.mp4";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
-
+import 'fullpage.js/dist/fullpage.extensions.min.js';
 import Grupo from "./Areas/Grupo";
 import SIMIndex from "./Areas/SIM_Index";
 import SIMBrands from "./Areas/SIM_Brands";
@@ -16,6 +17,9 @@ import CCSServicios from "./Areas/CCS_Servicios";
 import CCSCertificaciones from "./Areas/CCS_Certificaciones";
 import CCSTecnologia from "./Areas/CCS_Tecnologia";
 import CCSClientes from "./Areas/CCS_Clientes";
+
+import 'fullpage.js/vendors/scrolloverflow.min'
+
 
 class Index extends Component {
   onLeave(origin, destination, direction) {
@@ -30,15 +34,17 @@ class Index extends Component {
         <div id="bg"></div>
         <div id="bgnoise"></div>
 
-        {/*<video id="bg" loop muted autoPlay>
+        <video id="bg" loop muted autoPlay>
           <source src={pelicula} type="video/mp4" />
-    </video>}*/}
+        </video>
 
         <ReactFullpage
           licenseKey={"FF3E03E0-2607429E-8207D2C5-8D8301B1"}
           scrollingSpeed={500} /* Options here */
           onLeave={this.onLeave.bind(this)}
           verticalCentered={false}
+          controlArrows={false}
+          resetSliders={true}
           anchors={[
             "Portada",
             "Nosotros",

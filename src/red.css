@@ -53,7 +53,7 @@ h3 {
   top: 0;
   bottom: 0;
   right: 0;
-  background: url("assets/img/backgrounds/background.jpg");
+  background: url("assets/img/backgrounds/fondocolorsmall.mp4");
   background-color: black;
   background-position: center center;
   background-size: contain;
@@ -320,7 +320,7 @@ hr {
   width: 10vw !important;
   height: 10vw !important;
   margin: 1vw 7vw 1vw 7vw;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 1);
 }
 .avatarBig {
   border: solid 2px rgba(255, 255, 255, 0.7);
@@ -388,4 +388,9 @@ li:before {
   display: inline-block;
   height: 50px;
   width: 50px;
+}
+
+
+.slide {
+
 }
