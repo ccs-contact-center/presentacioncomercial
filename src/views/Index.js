@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-//import ReactFullpage from "@fullpage/react-fullpage";
-import ReactFullpage from '../assets/packages/@fullpage/react-fullpage'
-//
+
+import ReactFullpage from "@fullpage/react-fullpage";
+
 import pelicula from "../assets/img/backgrounds/fondocolorsmall.mp4";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
@@ -17,7 +17,6 @@ import CCSServicios from "./Areas/CCS_Servicios";
 import CCSCertificaciones from "./Areas/CCS_Certificaciones";
 import CCSTecnologia from "./Areas/CCS_Tecnologia";
 import CCSClientes from "./Areas/CCS_Clientes";
-
 
 class Index extends Component {
   onLeave(origin, destination, direction) {
