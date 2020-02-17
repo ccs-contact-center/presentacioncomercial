@@ -46,36 +46,42 @@ class Comercial extends Component {
               <Avatar className="avatarBig" alt="" src={avatar1} />
             </Zoom>
             <br />
+            <br />
+            <br />
+            <br />
             <Zoom up>
               <h2>Jeronimo Fernandez Senderos</h2>
             </Zoom>
             <br />
-            <Zoom right>
+            {/*<Zoom right>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
                 sint blanditiis exercitationem suscipit doloremque labore
                 aliquid magnam quod, dolorem, ratione libero, qui aspernatur
                 quia? Odit, quidem. Veritatis, deserunt. Assumenda, a!
               </p>
-            </Zoom>
+            </Zoom>*/}
           </div>
           <div className="slide">
             <Zoom left>
               <Avatar className="avatarBig" alt="" src={avatar2} />
             </Zoom>
             <br />
+            <br />
+            <br />
+            <br />
             <Zoom up>
               <h2>Vivian Cheja Dabbah</h2>
             </Zoom>
             <br />
-            <Zoom right>
+            {/*<Zoom right>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
                 sint blanditiis exercitationem suscipit doloremque labore
                 aliquid magnam quod, dolorem, ratione libero, qui aspernatur
                 quia? Odit, quidem. Veritatis, deserunt. Assumenda, a!
               </p>
-            </Zoom>
+            </Zoom>*/}
           </div>
         </div>
       </div>

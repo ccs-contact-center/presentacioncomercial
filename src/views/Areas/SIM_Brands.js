@@ -69,17 +69,24 @@ class Comercial extends Component {
           </div>
 
           <div className="slide">
-            <img
+            <Avatar
+              alt="Outsourcing"
               src={avant}
-              width={300}
+              className="avatarSE"
+              style={{ marginLeft: "30vw" }}
+            />
+            {/*<img
+              src={avant}
+              width={220}
               alt="logo"
               className="img-fluid"
               style={{
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
-                marginBottom: "-5vw",
+            
                 marginTop: "-3vw"
               }}
-            />
+            />*/}
+            <br />
             <p>
               Avant es una empresa 100% mexicana cuyo objetivo es apoyar el
               desarrollo y consolidación del capital de trabajo de las Pequeñas
@@ -102,7 +109,13 @@ class Comercial extends Component {
             </ul>
           </div>
           <div className="slide">
-            <img
+            <Avatar
+              alt="Outsourcing"
+              src={sim}
+              className="avatarSE"
+              style={{ marginLeft: "30vw" }}
+            />
+            {/*<img
               src={sim}
               width={300}
               alt="logo"
@@ -111,7 +124,7 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
                 marginBottom: "-5vw"
               }}
-            />
+            />*/}
             <br />
             <p>
               SEAC fue creada en el año 2004, dedicado a ofrecer servicios
@@ -119,6 +132,7 @@ class Comercial extends Component {
               recursos humanos otorgando garantías, reduciendo costos de manera
               tangible y mejorando la calidad y transparencia de los mismos.
             </p>
+            <p>Los principales servicios proporcionados son:</p>
             <br />
             <br />
             <ul>
@@ -129,7 +143,13 @@ class Comercial extends Component {
             </ul>
           </div>
           <div className="slide">
-            <img
+            <Avatar
+              alt="Outsourcing"
+              src={seac}
+              className="avatarSE"
+              style={{ marginLeft: "30vw" }}
+            />
+            {/*<img
               src={seac}
               width={300}
               alt="logo"
@@ -139,10 +159,10 @@ class Comercial extends Component {
                 marginBottom: "-5vw",
                 marginTop: "-3vw"
               }}
-            />
+            />*/}
             <br />
             <p>
-              En 2012 Grupo SIM crea la división de TECNOLOGIA, Empresa
+              En 2012 Grupo SIM crea la división de tecnología, empresa
               especializada en la reparación, logística y comercialización de
               productos y servicios relacionados a telecomunicaciones, cómputo y
               electrónicos con cobertura a nivel nacional y proyección
@@ -151,15 +171,19 @@ class Comercial extends Component {
             <p>
               Actualmente cuenta con + de 500 colaboradores, ingresos por MXN
               400 millones y presta servicios al 80% de las marcas de celulares
-              del mercado Mexicano. Principales Clientes Samsung, Apple, Huawei,
-              Motorola, Hisense, Alcatel, Asurion, entre otros
+              del mercado Mexicano
             </p>
-            <p>
-              Reciente ampliación a mayores Instalaciones con una dimensión de
-              2,000 mt2, incluyendo 100 posiciones de laboratorio, 160 pallets
-              en almacén y 120 mt2 tienda. + de 40k reparaciones mensuales
-              Reconocimiento Excelencia en Atención al Cliente
-            </p>
+
+            <p>Nuestros priincipales clientes son:</p>
+
+            <ul>
+              <li>Samsung</li>
+              <li>Apple</li>
+              <li>Huawei</li>
+              <li>Motorola</li>
+              <li>Hisense</li>
+              <li>Alcatel</li>
+            </ul>
           </div>
         </div>
       </div>

@@ -9,7 +9,12 @@ import C2W from "../../assets/img/partners/white/genesys.png";
 import C3W from "../../assets/img/partners/white/mitrol.png";
 import C4W from "../../assets/img/partners/white/s1gateway.png";
 import C5W from "../../assets/img/brand/CCS_Blanco.png";
+import CAPP from "../../assets/img/brand/CCS_APP.png";
 
+import app1 from "../../assets/img/brand/app1.PNG";
+import app2 from "../../assets/img/brand/app2.PNG";
+
+import dashboard from "../../assets/img/brand/dashboard.png";
 
 import C1T from "../../assets/img/partners/transparent/avaya.png";
 import C2T from "../../assets/img/partners/transparent/genesys.png";
@@ -50,11 +55,11 @@ class Comercial extends Component {
                 <div className="avatarcontent">
                   <Avatar
                     alt="Cosourcing"
-                    src={C5W}
+                    src={CAPP}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/2")}
+                    onClick={() => (window.location.href = "/#Tecnologia/5")}
                   />
-                  <p>CCS Mobile Reports</p>
+                  <p>Aplicación CCS</p>
                 </div>
               </div>
             </Zoom>
@@ -84,18 +89,29 @@ class Comercial extends Component {
                     alt="Capacitación"
                     src={C5W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/4")}
+                    onClick={() => (window.location.href = "/#Tecnologia/6")}
                   />
-                  <p>CCS Web Dashboard</p>
+                  <p>Dashboards Online</p>
                 </div>
               </div>
             </Zoom>
           </div>
 
           <div className="slide">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <img
               src={C1T}
-              width={300}
+              width={500}
               alt="logo"
               className="img-fluid"
               style={{
@@ -104,9 +120,16 @@ class Comercial extends Component {
             />
           </div>
           <div className="slide">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
             <img
               src={C2T}
-              width={300}
+              width={500}
               alt="logo"
               className="img-fluid"
               style={{
@@ -115,9 +138,12 @@ class Comercial extends Component {
             />
           </div>
           <div className="slide">
+            <br />
+            <br />
+
             <img
               src={C3T}
-              width={300}
+              width={400}
               alt="logo"
               className="img-fluid"
               style={{
@@ -126,15 +152,58 @@ class Comercial extends Component {
             />
           </div>
           <div className="slide">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
             <img
               src={C4T}
-              width={300}
+              width={400}
               alt="logo"
               className="img-fluid"
               style={{
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+          </div>
+          <div className="slide">
+            <br />
+            <br />
+            <br />
+            <h2>Aplicación CCS</h2>
+            <p>
+              Desarrollamos una aplicación para iOS y Android en la que podrás
+              visualizar en tiempo real los principales indicadores de tu
+              servicio
+            </p>
+            <br />
+
+            <img
+              src={app1}
+              width={200}
+              alt="logo"
+              className="img-fluid"
+              style={{ marginRight: "2vw" }}
+            />
+            <img src={app2} width={200} alt="logo" className="img-fluid" />
+          </div>
+          <div className="slide">
+            <h2>Dashboards Web</h2>
+            <p>
+              Por medio de una sencilla interfaz, podras revisar en tiempo real
+              los datos de tu servicio desde cualquier navegador, para ayudarte
+              a tomar decisiones en el momento
+            </p>
+            <br />
+     
+            <img src={dashboard} width={900} alt="logo" className="img-fluid" />
           </div>
         </div>
       </div>

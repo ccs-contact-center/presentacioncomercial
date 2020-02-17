@@ -94,6 +94,13 @@ class Comercial extends Component {
                 Ejecutamos la estrategia para alcanzar tus objetivos y medimos
                 con precisión tus resultados.
               </p>
+
+              <p>
+                Nuestra amplia experiencia en la industria, nos permite hacer un
+                uso eficiente de los recursos y cumplir tus objetivos de negocio
+                por medio de nuestro capital humano y las mas novedosas
+                tenologías en la industria
+              </p>
               <br />
               <br />
               <img src={S1} alt="" />
@@ -103,6 +110,13 @@ class Comercial extends Component {
             <Zoom cascade left>
               <h1>Cosourcing</h1>
               <p>Nuestra experiencia en tus instalaciones.</p>
+
+              <p>
+                Con nuestra amplia experiencia, operamos tu centro de contacto
+                en tus instalaciones, logrando incremetos sustanciales en la
+                efciencia de tu personal por medio de nuestra probada
+                metodología
+              </p>
               <br />
               <br />
               <img src={S2} alt="" />
@@ -114,6 +128,11 @@ class Comercial extends Component {
               <p>
                 Te ayudamos a competir en la industria y a generar planes
                 estratégicos de mejora.
+              </p>
+              <p>
+                Nuestros consultores cuentan con una experiencia de más de 20
+                años en la industria, permitiendonos brindarte las soluciones
+                que necesitas.
               </p>
               <br />
               <br />
@@ -127,6 +146,11 @@ class Comercial extends Component {
                 Establecemos los procesos para alcanzar la excelencia en el
                 customer experience.
               </p>
+              <p>
+                Nuestra area de calidad certificada con ISO 9001 y nuestra
+                metodologia on-demand, eleva los estandares de calidad y
+                satisfacción de tus clientes.
+              </p>
               <br />
               <br />
               <img src={S4} alt="" />
@@ -139,6 +163,12 @@ class Comercial extends Component {
                 Entendemos a tu personal y aportamos la especialización y el
                 expertis que necesita para desarrollarse.
               </p>
+              <p>
+                Nuestro equipo de capacitación utiliza las mejores técnicas
+                pedagogicas y las mejores herramientas disponibles para que el
+                personal a capacitar, tenga un dominio excepcional de los
+                conocimientos y habilidades necesarias para operar tu producto
+              </p>
               <br />
               <br />
               <img src={S5} alt="" />
@@ -149,6 +179,12 @@ class Comercial extends Component {
               <h1>Business Intelligence</h1>
               <p>
                 Con la información de tu mercado te proponemos grandes caminos.
+              </p>
+              <p>
+                Con base en métodos estadisticos de forecasting y analisis de
+                tendencias, convertimos los datos que generan tus servicios en
+                estrategias que incrementan las ventas y la satisfacción de tus
+                clientes{" "}
               </p>
               <br />
               <br />

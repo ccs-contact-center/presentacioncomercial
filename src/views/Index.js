@@ -40,8 +40,7 @@ class Index extends Component {
           scrollingSpeed={500} /* Options here */
           onLeave={this.onLeave.bind(this)}
           verticalCentered={false}
-          controlArrows={false}
-          resetSliders={true}
+          loopHorizontal={false}
           anchors={[
             "Portada",
             "Nosotros",

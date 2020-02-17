@@ -28,7 +28,7 @@ class Comercial extends Component {
             </Zoom>
             <Zoom left>
               <div className="info-item">
-                <h2>Facturación</h2>
+                <h2>Volumen de Ventas</h2>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Doloremque at assumenda, necessitatibus soluta nulla similique

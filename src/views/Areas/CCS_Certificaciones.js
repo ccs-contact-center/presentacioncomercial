@@ -15,8 +15,6 @@ import C1T from "../../assets/img/certificaciones/transparent/iso9001.png";
 import C2T from "../../assets/img/certificaciones/transparent/iso27001.png";
 import C3T from "../../assets/img/certificaciones/transparent/itil.png";
 import C4T from "../../assets/img/certificaciones/transparent/copc.png";
-import C5T from "../../assets/img/certificaciones/transparent/stps.png";
-import C6T from "../../assets/img/certificaciones/transparent/conocer.png";
 
 class Comercial extends Component {
   render() {
@@ -122,6 +120,17 @@ class Comercial extends Component {
               La certificación ISO 9001, garantiza que nuestros servicios tienen
               una alta calidad
             </p>
+            <p>
+              Considerada como un referente mundial, la norma ISO 9001 fija
+              principios fundamentales de gestión de calidad que nos ayudan a a
+              controlar y mejorar el rendimiento y conducirnos hacia la
+              eficiencia, la excelencia de nuestros productos y la optimización
+              de nuestro servicio al cliente. Estos principios son: enfoque al
+              cliente, liderazgo, participación del personal, enfoque basado en
+              los procesos, enfoque de sistema para la gestión, mejora continua,
+              enfoque basado en la toma de decisiones y las buenas relaciones
+              con el proveedor.
+            </p>
           </div>
           <div className="slide">
             <img
@@ -140,6 +149,17 @@ class Comercial extends Component {
               lo cual contamos con la certificación ISO 27001, que garantiza la
               seguridad de tus datos
             </p>
+            <p>
+              El eje central de ISO 27001 es proteger la confidencialidad,
+              integridad y disponibilidad de tu información. Esto lo hacemos
+              investigando cuáles son los potenciales problemas que podrían
+              afectar la información (Evaluación de riesgos) y luego definiendo
+              lo que es necesario hacer para evitar que estos problemas se
+              produzcan (Mitigación del riesgo). Por lo tanto, la filosofía
+              principal de la norma ISO 27001 se basa en la gestión de riesgos:
+              investigar dónde están los riesgos y luego tratarlos
+              sistemáticamente.
+            </p>
           </div>
           <div className="slide">
             <img
@@ -156,9 +176,17 @@ class Comercial extends Component {
             <p>
               Contamos con personal certificado en ITIL, cuyo enfoque hemos
               adoptado en la Gestión de nuestros servicios de TI, para alcanzar
-              los objetivos estratégicos de negocio y satisfacer las necesidades
-              del usuario.
+              los objetivos estratégicos de negocio y satisfacer sus
+              necesidades.
             </p>
+            <p>Algunas ventajas clave son:</p>
+            <ul>
+              <li>Un servicio mejor y más confiable</li>
+              <li>Clientes más conformes</li>
+              <li>Mejora el proceso de innovación</li>
+              <li>Ahorro financiero</li>
+              <li>Incrementa la productividad</li>
+            </ul>
           </div>
           <div className="slide">
             <img
@@ -173,6 +201,14 @@ class Comercial extends Component {
             <br />
             <br />
             <p>
+              Se trata de una certificación de la gestión de varios parámetros
+              para alcanzar la gestión ideal en métricas o mediciones claves,
+              capacitación de personas que gestionan clientes, todo esto
+              sustentado en mejorar la satisfacción del cliente con buen
+              servicio y alta calidad; Aumentar ingresos y reducir costes de
+              operación
+            </p>
+            <p>
               Tenemos personal certificado en COPC. Integramos conceptos y
               procesos de dicha norma para mejorar la calidad en los
               procedimientos operativos, además de gestionar, medir y capacitar
@@ -180,14 +216,11 @@ class Comercial extends Component {
             </p>
           </div>
           <div className="slide">
-            <img
-              src={C5T}
-              width={300}
-              alt="logo"
-              className="img-fluid"
-              style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
-              }}
+            <Avatar
+              alt="Capacitación"
+              src={C5W}
+              className="avatarSE"
+              style={{ marginLeft: "30vw" }}
             />
             <br />
             <br />
@@ -195,22 +228,31 @@ class Comercial extends Component {
               Nustros instructores están certificados ante la Secretaría de
               Trabajo y Previsión Social (STPS)
             </p>
+            <p>
+              Los beneficios de la certificación, radican en que se garantiza
+              que la persona que obtuvo el certificado cuenta con las
+              habilidades, destrezas, conocimiento y actitudes que el Estándar
+              de competencia solicita.
+            </p>
           </div>
           <div className="slide">
-            <img
-              src={C6T}
-              width={300}
-              alt="logo"
-              className="img-fluid"
-              style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
-              }}
+            <Avatar
+              alt="Capacitación"
+              src={C6W}
+              className="avatarSE"
+              style={{ marginLeft: "30vw" }}
             />
             <br />
             <br />
             <p>
               La certificación CONOCER por competencias, garantiza altos
               estandares en capacitación, evaluacion y certificación
+            </p>
+            <p>
+              El certificado de competencia es un documento expedido por la
+              Secretaría de Educación Pública del Gobierno Federal en el cual se
+              asegura que el desempeño de una persona se ajusta a lo que
+              requieren las empresas o instituciones.
             </p>
           </div>
         </div>
