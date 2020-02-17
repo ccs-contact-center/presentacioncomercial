@@ -21,8 +21,7 @@ import CCSClientes from "./Areas/CCS_Clientes";
 class Index extends Component {
   onLeave(origin, destination, direction) {
     console.log("onLeave", { origin, destination, direction });
-    // arguments are mapped in order of fullpage.js callback arguments do something
-    // with the event
+ 
   }
 
   render() {
