@@ -68,20 +68,26 @@ class Comercial extends Component {
             </Zoom>
             <br />
             <br />
-            <br />
-            <br />
+
             <Zoom up>
               <h2>Vivian Cheja Dabbah</h2>
             </Zoom>
             <br />
-            {/*<Zoom right>
+            <Zoom right>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                sint blanditiis exercitationem suscipit doloremque labore
-                aliquid magnam quod, dolorem, ratione libero, qui aspernatur
-                quia? Odit, quidem. Veritatis, deserunt. Assumenda, a!
+                Con 30 años de experiencia, se especializa en la operación y
+                optimización de centros de contacto y gestión de personal.
               </p>
-            </Zoom>*/}
+              <p>
+                A lo largo de su trayectoria, ha dirigido importantes firmas en
+                la industria de los centros de contacto, logrando crecimientos
+                de hasta 1,500 estaciones,incrementando la facturación y
+                reduciendo los gastos operativos. Con su profundo conocimiento
+                del negocio, ha dirigido y operado todo tipo de servicios, desde
+                atención a clientes y ventas, hasta soporte tecnico de alto
+                nivel.
+              </p>
+            </Zoom>
           </div>
         </div>
       </div>

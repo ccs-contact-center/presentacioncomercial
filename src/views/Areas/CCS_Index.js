@@ -23,13 +23,18 @@ class Comercial extends Component {
           </Zoom>
           <br />
           <Zoom>
-            <p>Somos una empresa 100% mexicana fundada en 2003</p>
+            <p>Somos un contact center 100% mexicano fundado en 2003</p>
+            <p>
+              Nos caracterizamos por ofrecer un servicio boutique, desarrollando
+              soluciones a la medida para nuestros clientes y siempre inovando
+              para ofrecer la mejor experiencia y tecnología disponibles
+            </p>
             <p>
               Nuestro equipo tiene más de 25 años de experiencia en la gestión
               de clientes o CRM. Nos especializamos en la implantación,
               operación, comercialización y optimización de Centros de Contacto
-              para entregar una excelente experiencia a los clientes de nuestros
-              clientes.
+              para entregar una excelente experiencia a nuestros clientes y a
+              los usuarios finales
             </p>
           </Zoom>
         </div>
