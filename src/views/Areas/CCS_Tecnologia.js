@@ -103,26 +103,32 @@ class Comercial extends Component {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+
             <img
               src={C1T}
               width={500}
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
+                backgroundColor: "rgba(255,255,255,0.7)",
+                padding: "2vw",
+                borderRadius: "5px"
               }}
             />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p>
+              Avaya Inc. es una empresa lider en telecomunicaciones que se
+              especializa en el sector de la telefonía y centros de llamadas.
+              Antiguamente Avaya formaba parte de la Empresa Lucent
+              Technologies, Tiene unos 18,000 empleados desde 2007, el 40% de
+              los cuales se encuentran fuera de los EE. UU..
+            </p>
           </div>
           <div className="slide">
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <br />
@@ -130,12 +136,28 @@ class Comercial extends Component {
             <img
               src={C2T}
               width={500}
+              height={200}
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
+                backgroundColor: "rgba(255,255,255,0.7)",
+                padding: "-5vw",
+                borderRadius: "5px"
               }}
             />
+            <br />
+            <br />
+            <br />
+            <br />
+            <p>
+              Genesys es una empresa que vende experiencia del cliente y
+              tecnología de centros de llamadas para medianas y grandes
+              empresas. Genesys vende software basado tanto en computación en la
+              nube como on-premises. La empresa tiene su sede en Daly City,
+              California2 y cuenta con oficinas en Canadá, América Latina,
+              Europa, Medio Oriente, África, Asia, y Australia
+            </p>
           </div>
           <div className="slide">
             <br />
@@ -143,13 +165,26 @@ class Comercial extends Component {
 
             <img
               src={C3T}
-              width={400}
+              width={300}
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
+                backgroundColor: "rgba(255,255,255,0.7)",
+                padding: "-5vw",
+                borderRadius: "5px"
               }}
             />
+            <br />
+            <br />
+            <br />
+            <p>
+              Empresa argentina con más de30 años de experiiencia y presencia en
+              operaciones de Contact Center. Ofrece soluciones que simplifican
+              todas las interacciones con sus clientes, generando un valor
+              diferencial en cada contacto, brindando una verdadera atención
+              omnicanal.
+            </p>
           </div>
           <div className="slide">
             <br />
@@ -157,11 +192,7 @@ class Comercial extends Component {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+          
 
             <img
               src={C4T}
@@ -169,9 +200,25 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
+                backgroundColor: "rgba(255,255,255,0.7)",
+                padding: "5vw",
+                borderRadius: "5px"
               }}
             />
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <p>
+              S1 Gateway es una plataforma de atención al cliente que optimiza
+              las experiencias de los usuarios. Hace que sea sencillo mejorar la
+              relación entre personas y empresas, integrando en una única
+              plataforma la atención de todos los canales digitales. Comprende y
+              deriva cada mensaje al agente o chatbot que corresponda para
+              optimizar procesos y reducir los tiempos de atención.
+            </p>
           </div>
           <div className="slide">
             <br />
@@ -202,7 +249,7 @@ class Comercial extends Component {
               a tomar decisiones en el momento
             </p>
             <br />
-     
+
             <img src={dashboard} width={900} alt="logo" className="img-fluid" />
           </div>
         </div>

@@ -322,6 +322,17 @@ hr {
   margin: 1vw 7vw 1vw 7vw;
   background-color: rgba(255, 255, 255, 1);
 }
+
+.avatartec {
+  border: solid 2px rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+  width: 30vw !important;
+  height: 30vw !important;
+  margin: 1vw 7vw 1vw 7vw;
+  background-color: rgba(255, 255, 255, 1);
+  background-image: contain;
+}
+
 .avatarBig {
   border: solid 2px rgba(255, 255, 255, 0.7);
   filter: saturate(0%);
