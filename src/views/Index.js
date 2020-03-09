@@ -8,6 +8,8 @@ import logo from "../assets/img/brand/logo.png";
 
 import Grupo from "./Areas/Grupo";
 import SIMIndex from "./Areas/SIM_Index";
+
+import SIMPortafolios from "./Areas/SIM_Portafolio";
 import SIMBrands from "./Areas/SIM_Brands";
 import SIMFacturacion from "./Areas/SIM_Facturacion";
 import SIMClientes from "./Areas/SIM_Clientes";
@@ -21,7 +23,6 @@ import CCSClientes from "./Areas/CCS_Clientes";
 class Index extends Component {
   onLeave(origin, destination, direction) {
     console.log("onLeave", { origin, destination, direction });
- 
   }
 
   render() {
@@ -44,6 +45,7 @@ class Index extends Component {
             "Portada",
             "Nosotros",
             "GrupoSIM",
+            "Portafolio",
             "SimBrands",
             "Facturacion",
             "ClientesSim",
@@ -77,6 +79,7 @@ class Index extends Component {
                 </div>
                 <Grupo />
                 <SIMIndex />
+                <SIMPortafolios/>
                 <SIMBrands />
                 <SIMFacturacion />
                 <SIMClientes />

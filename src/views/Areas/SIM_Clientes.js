@@ -4,44 +4,7 @@ import "react-circular-progressbar/dist/styles.css";
 
 //import { Avatar } from "@material-ui/core";
 
-import i1 from "../../assets/img/clientes_ccs/ace_seguros.png";
-import i2 from "../../assets/img/clientes_ccs/ado.png";
-import i3 from "../../assets/img/clientes_ccs/aig.png";
-import i4 from "../../assets/img/clientes_ccs/amex.png";
-import i5 from "../../assets/img/clientes_ccs/banco_azteca.png";
-import i6 from "../../assets/img/clientes_ccs/banregio.png";
-import i7 from "../../assets/img/clientes_ccs/caminante.png";
-import i8 from "../../assets/img/clientes_ccs/canal_once.png";
-import i9 from "../../assets/img/clientes_ccs/cv_directo.png";
-import i10 from "../../assets/img/clientes_ccs/dominos.png";
-import i11 from "../../assets/img/clientes_ccs/el_universal.png";
-import i12 from "../../assets/img/clientes_ccs/elektra.png";
-import i13 from "../../assets/img/clientes_ccs/enel.png";
-import i14 from "../../assets/img/clientes_ccs/gandhi.png";
-import i15 from "../../assets/img/clientes_ccs/harmon_hall.png";
-import i16 from "../../assets/img/clientes_ccs/huawei.png";
-import i17 from "../../assets/img/clientes_ccs/ilusion.png";
-import i18 from "../../assets/img/clientes_ccs/inea.png";
-import i19 from "../../assets/img/clientes_ccs/inova.png";
-import i20 from "../../assets/img/clientes_ccs/interjet.png";
-import i21 from "../../assets/img/clientes_ccs/interlingua.png";
-import i22 from "../../assets/img/clientes_ccs/ixe.png";
-import i23 from "../../assets/img/clientes_ccs/mens_fashion.png";
-import i24 from "../../assets/img/clientes_ccs/mercees_benz.png";
-import i25 from "../../assets/img/clientes_ccs/microsoft.png";
-import i26 from "../../assets/img/clientes_ccs/oxxo.png";
-import i27 from "../../assets/img/clientes_ccs/price_shoes.png";
-import i28 from "../../assets/img/clientes_ccs/reforma.png";
-import i29 from "../../assets/img/clientes_ccs/seguros_monterrey.png";
-import i30 from "../../assets/img/clientes_ccs/sin_delantal.png";
-import i31 from "../../assets/img/clientes_ccs/soriana.png";
-import i32 from "../../assets/img/clientes_ccs/sura.png";
-import i33 from "../../assets/img/clientes_ccs/tcl.png";
-import i34 from "../../assets/img/clientes_ccs/televia.png";
-import i35 from "../../assets/img/clientes_ccs/televisa.png";
-import i36 from "../../assets/img/clientes_ccs/unitec.png";
-import i37 from "../../assets/img/clientes_ccs/verde.png";
-import i38 from "../../assets/img/clientes_ccs/vips.png";
+import clientes from "../../assets/img/clientessim.png";
 
 import Bounce from "react-reveal/Bounce";
 
@@ -50,82 +13,19 @@ class Comercial extends Component {
     return (
       <div className="section" id="implementacion">
         <div className="content">
-          <div className="slide">
-          
           <Bounce>
-            <h1>Clientes</h1>
+            <h1>Principales Clientes</h1>
           </Bounce>
-          <br/> <br/>
-          <div style={{backgroundColor:"rgba(255,255,255,0.8)", padding:"1vw", borderRadius:"5px"}}>
+          <br />
           <Bounce cascade left>
-          <div className="horizontalContent">
-            <img src={i1} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i2} alt="" style={{ width: "7%", height: "7%", margin:"1.5vw" }} />
-            <img src={i3} alt="" style={{ width: "9%", height: "9%", margin:"1.5vw" }} />
-            <img src={i4} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i5} alt="" style={{ width: "11%", height: "11%", margin:"1.5vw" }} />
-            <img src={i6} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i7} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-          </div>
-          <div className="horizontalContent">
-            <img src={i8} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i9} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i10} alt="" style={{ width: "13%", height: "13%", margin:"1.5vw" }} />
-            <img src={i11} alt="" style={{ width: "9%", height: "9%", margin:"1.5vw" }} />
-            <img src={i12} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i13} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-            <img src={i14} alt="" style={{ width: "10%", height: "10%", margin:"1.5vw" }} />
-          </div>
-          <div className="horizontalContent">
-            <img src={i15} alt="" style={{ width: "14%", height: "14%", margin:"1vw" }} />
-            <img src={i16} alt="" style={{ width: "6.5%", height: "6.5%", margin:"0.5vw" }} />
-            <img src={i17} alt="" style={{ width: "22%", height: "22%", margin:"0.5vw" }} />
-            <img src={i18} alt="" style={{ width: "10%", height: "10%", margin:"0.5vw" }} />
-            <img src={i19} alt="" style={{ width: "10%", height: "10%", margin:"0.5vw" }} />
-            <img src={i20} alt="" style={{ width: "15%", height: "15%", margin:"0.2vw" }} />
-            <img src={i21} alt="" style={{ width: "12%", height: "12%", margin:"0.0vw" }} />
-          </div>
+            <div>
+              <img src={clientes} alt="" width={800} />
+            </div>
           </Bounce>
-          </div>
-          </div>
-         
-          <div className="slide">
+          <br /> <br />
           <Bounce>
-            <h1>Clientes</h1>
+            <p>...Más de 250 clientes en total</p>
           </Bounce>
-          <br/> <br/>
-          <br/> <br/>
-          <div style={{backgroundColor:"rgba(255,255,255,0.8)", padding:"1vw", borderRadius:"5px"}}>
-          <Bounce cascade left>
-          <div className="horizontalContent">
-            <img src={i22} alt="" style={{ width: "10%", height: "10%", margin:"0.7vw" }} />
-            <img src={i23} alt="" style={{ width: "8%", height: "8%", margin:"0.7vw" }} />
-            <img src={i24} alt="" style={{ width: "12%", height: "12%", margin:"0.7vw" }} />
-            <img src={i25} alt="" style={{ width: "10%", height: "10%", margin:"0.7vw" }} />
-            <img src={i26} alt="" style={{ width: "10%", height: "10%", margin:"0.7vw" }} />
-            <img src={i27} alt="" style={{ width: "9%", height: "9%", margin:"0.7vw" }} />
-            <img src={i28} alt="" style={{ width: "10%", height: "10%", margin:"0.7vw" }} />
-          </div>
-          <div className="horizontalContent">
-            <img src={i29} alt="" style={{ width: "12%", height: "12%", margin:"0.7vw" }} />
-            <img src={i30} alt="" style={{ width: "12%", height: "12%", margin:"0.7vw" }} />
-            <img src={i31} alt="" style={{ width: "12%", height: "12%", margin:"0.7vw" }} />
-            <img src={i32} alt="" style={{ width: "12%", height: "12%", margin:"0.7vw" }} />
-            <img src={i33} alt="" style={{ width: "9%", height: "9%", margin:"0.7vw" }} />
-            <img src={i34} alt="" style={{ width: "10%", height: "10%", margin:"0.7vw" }} />
-            <img src={i35} alt="" style={{ width: "9%", height: "9%", margin:"0.7vw" }} />
-          </div>
-          <div className="horizontalContent">
-            <img src={i36} alt="" style={{ width: "10%", height: "10%", margin:"0.7vw" }} />
-            <img src={i37} alt="" style={{ width: "7%", height: "7%", margin:"0.7vw" }} />
-            <img src={i38} alt="" style={{ width: "6%", height: "6%", margin:"1vw" }} />
-
-          </div>
-        
-          </Bounce>
-          
-          </div>
-          </div>
         </div>
       </div>
     );
