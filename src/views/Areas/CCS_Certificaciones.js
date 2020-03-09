@@ -162,6 +162,11 @@ class Comercial extends Component {
             </p>
           </div>
           <div className="slide">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <img
               src={C3T}
               width={300}
@@ -189,6 +194,11 @@ class Comercial extends Component {
             </ul>
           </div>
           <div className="slide">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <img
               src={C4T}
               width={300}
@@ -216,6 +226,11 @@ class Comercial extends Component {
             </p>
           </div>
           <div className="slide">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <Avatar
               alt="Capacitación"
               src={C5W}
@@ -236,6 +251,11 @@ class Comercial extends Component {
             </p>
           </div>
           <div className="slide">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <Avatar
               alt="Capacitación"
               src={C6W}
