@@ -22,12 +22,12 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
-                    alt="Jeronimo Fernandez"
+                    alt="Jerónimo Fernández"
                     src={avatar1}
                     className="avatar"
                     onClick={() => (window.location.href = "/#Socios/1")}
                   />
-                  <p>Jeronimo Fernandez Senderos</p>
+                  <p>Jerónimo Fernández Senderos</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
@@ -50,7 +50,7 @@ class Comercial extends Component {
             <br />
             <br />
             <Zoom up>
-              <h2>Jeronimo Fernandez Senderos</h2>
+              <h2>Jerónimo Fernández Senderos</h2>
             </Zoom>
             <br />
             {/*<Zoom right>
