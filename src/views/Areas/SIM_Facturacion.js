@@ -54,6 +54,7 @@ class Comercial extends Component {
 
           <Zoom>
             <br />
+            <br />
             <p>Estados financieros auditados por:</p>
             <img
               src={deloitte}
