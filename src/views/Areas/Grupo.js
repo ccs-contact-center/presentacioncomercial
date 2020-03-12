@@ -8,6 +8,7 @@ import SIM from "../../assets/img/brand/SIM_Blanco.png";
 import CCS from "../../assets/img/brand/CCS_Blanco.png";
 
 
+
 class Comercial extends Component {
   render() {
     return (
