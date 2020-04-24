@@ -14,17 +14,18 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="implementacion">
-        <div className="content">
+        <div className="content" style={{padding:'20px'}}>
           <div className="slide">
             <Zoom>
               <h1>Empresas del Grupo</h1>
             </Zoom>
             <br />
-            <br />
+          
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Outsourcing"
                     src={avant}
                     className="avatarSE"
@@ -34,6 +35,7 @@ class Comercial extends Component {
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Cosourcing"
                     src={sim}
                     className="avatarSE"
@@ -48,6 +50,7 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Calidad"
                     src={seac}
                     className="avatarSE"
@@ -57,6 +60,7 @@ class Comercial extends Component {
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Capacitación"
                     src={ccs}
                     className="avatarSE"
