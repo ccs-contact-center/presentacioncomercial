@@ -22,6 +22,7 @@ class Comercial extends Component {
             <div className="horizontalContent">
               <div className="avatarContent">
                 <Avatar
+                 style={{cursor:'pointer'}}
                   alt="SIM"
                   src={SIM}
                   className="avatarBrand"
@@ -31,6 +32,7 @@ class Comercial extends Component {
               </div>
               <div className="avatarContent">
                 <Avatar
+                 style={{cursor:'pointer'}}
                   alt="Vivian Cheja"
                   src={CCS}
                   className="avatarBrand"
