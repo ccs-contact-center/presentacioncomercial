@@ -9,3 +9,19 @@ html body .app.flex-row.align-items-center {
     flex-direction: column;
   }
 }
+
+.centrado-fila {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*COMPATIBILIDAD CON EXPLORER*/
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+   -ms-flex-align: center;
+  -ms-flex-pack: center;
+}
+
+
