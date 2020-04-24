@@ -10,11 +10,12 @@ class Comercial extends Component {
     return (
       <div className="section" id="implementacion">
         <div className="content">
+          <br/>
           <Zoom>
             <h1>Servicios</h1>
           </Zoom>
           <Zoom>
-            <p>
+            <p style={{marginBottom:'0px'}}>
               Grupo SIM tiene un portafolio de servicios diversificados, desde
               consultoría hasta reclutamiento, administración de nómina y
               servicios financieros de corto plazo para cubrir necesidades de
@@ -24,7 +25,7 @@ class Comercial extends Component {
           <Zoom>
             <img
               src={SIM}
-              width={800}
+              width={600}
               alt="logo"
               className="img-fluid"
               style={{
