@@ -17,11 +17,12 @@ class Comercial extends Component {
               <h1>Socios</h1>
             </Zoom>
             <br />
-            <br />
+         
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Jerónimo Fernández"
                     src={avatar1}
                     className="avatar"
@@ -31,6 +32,7 @@ class Comercial extends Component {
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Vivian Cheja"
                     src={avatar2}
                     className="avatar"
