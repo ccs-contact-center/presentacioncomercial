@@ -25,7 +25,7 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="operaciones">
-        <div className="content">
+        <div className="content" style={{padding:'0px'}}>
           <div className="slide">
             <Zoom>
               <h1>Tecnología</h1>
@@ -36,6 +36,7 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Outsourcing"
                     src={C1W}
                     className="avatarS"
@@ -45,6 +46,7 @@ class Comercial extends Component {
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Cosourcing"
                     src={C2W}
                     className="avatarS"
@@ -54,6 +56,7 @@ class Comercial extends Component {
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Cosourcing"
                     src={CAPP}
                     className="avatarS"
@@ -68,6 +71,7 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Calidad"
                     src={C3W}
                     className="avatarS"
@@ -77,6 +81,7 @@ class Comercial extends Component {
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Capacitación"
                     src={C4W}
                     className="avatarS"
@@ -86,6 +91,7 @@ class Comercial extends Component {
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{cursor:'pointer'}}
                     alt="Capacitación"
                     src={C5W}
                     className="avatarS"
