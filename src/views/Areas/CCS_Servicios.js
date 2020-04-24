@@ -1,66 +1,68 @@
-import React, { Component } from "react";
-import "../../index.css";
-import "react-circular-progressbar/dist/styles.css";
+import React, { Component } from 'react'
+import '../../index.css'
+import 'react-circular-progressbar/dist/styles.css'
 
-import Zoom from "react-reveal/Bounce";
-import { Avatar } from "@material-ui/core";
-import S1 from "../../assets/img/services/1.jpg";
-import S2 from "../../assets/img/services/2.jpg";
-import S3 from "../../assets/img/services/3.jpg";
-import S4 from "../../assets/img/services/4.jpg";
-import S5 from "../../assets/img/services/5.jpg";
-import S6 from "../../assets/img/services/6.jpg";
+import Zoom from 'react-reveal/Bounce'
+import { Avatar } from '@material-ui/core'
+import S1 from '../../assets/img/services/1.jpg'
+import S2 from '../../assets/img/services/2.jpg'
+import S3 from '../../assets/img/services/3.jpg'
+import S4 from '../../assets/img/services/4.jpg'
+import S5 from '../../assets/img/services/5.jpg'
+import S6 from '../../assets/img/services/6.jpg'
 
-import os1 from "../../assets/img/servicios/outsourcing1.jpg";
-import os2 from "../../assets/img/servicios/outsourcing2.png";
-import cs1 from "../../assets/img/servicios/cosourcing1.jpg";
-import cs2 from "../../assets/img/servicios/cosourcing2.jpg";
-import consultoria1 from "../../assets/img/servicios/consultoria1.jpg";
-import consultoria2 from "../../assets/img/servicios/consultoria2.jpg";
-import qa1 from "../../assets/img/servicios/qa1.jpg";
-import qa2 from "../../assets/img/servicios/qa2.jpg";
-import capa1 from "../../assets/img/servicios/capacitacion1.png";
-import capa2 from "../../assets/img/servicios/capacitacion2.jpg";
-import bi1 from "../../assets/img/servicios/bi1.jpg";
-import bi2 from "../../assets/img/servicios/bi2.jpg";
+import os1 from '../../assets/img/servicios/outsourcing1.jpg'
+import os2 from '../../assets/img/servicios/outsourcing2.png'
+import cs1 from '../../assets/img/servicios/cosourcing1.jpg'
+import cs2 from '../../assets/img/servicios/cosourcing2.jpg'
+import consultoria1 from '../../assets/img/servicios/consultoria1.jpg'
+import consultoria2 from '../../assets/img/servicios/consultoria2.jpg'
+import qa1 from '../../assets/img/servicios/qa1.jpg'
+import qa2 from '../../assets/img/servicios/qa2.jpg'
+import capa1 from '../../assets/img/servicios/capacitacion1.png'
+import capa2 from '../../assets/img/servicios/capacitacion2.jpg'
+import bi1 from '../../assets/img/servicios/bi1.jpg'
+import bi2 from '../../assets/img/servicios/bi2.jpg'
 
 class Comercial extends Component {
   render() {
     return (
       <div className="section" id="operaciones">
-        <div className="content">
+        <div className="content" style={{padding:'10px'}}>
           <div className="slide">
             <Zoom>
               <h1>Productos</h1>
             </Zoom>
             <br />
-            <br />
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
+                    style={{ cursor: 'pointer' }}
                     alt="Outsourcing"
                     src={S1}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Productos/1")}
+                    onClick={() => (window.location.href = '/#Productos/1')}
                   />
                   <p>Outsourcing</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={S2}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Productos/2")}
+                    onClick={() => (window.location.href = '/#Productos/2')}
                   />
                   <p>Cosourcing</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{ cursor: 'pointer' }}
                     alt="Consultoría"
                     src={S3}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Productos/3")}
+                    onClick={() => (window.location.href = '/#Productos/3')}
                   />
                   <p>Consultoría</p>
                 </div>
@@ -71,28 +73,31 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
+                    style={{ cursor: 'pointer' }}
                     alt="Calidad"
                     src={S4}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Productos/4")}
+                    onClick={() => (window.location.href = '/#Productos/4')}
                   />
                   <p>Calidad</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={S5}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Productos/5")}
+                    onClick={() => (window.location.href = '/#Productos/5')}
                   />
                   <p>Capacitación</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
+                    style={{ cursor: 'pointer' }}
                     alt="Business Intelligence"
                     src={S6}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Productos/6")}
+                    onClick={() => (window.location.href = '/#Productos/6')}
                   />
                   <p>Business Intelligence</p>
                 </div>
@@ -287,8 +292,8 @@ class Comercial extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Comercial;
+export default Comercial
