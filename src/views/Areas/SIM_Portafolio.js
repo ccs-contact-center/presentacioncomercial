@@ -23,7 +23,8 @@ class Comercial extends Component {
             </p>
           </Zoom>
           <Zoom>
-            <img
+           <div className="centrado-fila">
+           <img
               src={SIM}
               width={600}
               alt="logo"
@@ -32,6 +33,7 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
+           </div>
           </Zoom>
         </div>
       </div>
