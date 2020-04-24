@@ -12,17 +12,16 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="implementacion">
-        <div className="content">
+        <div className="content" style={{padding:'6px'}}>
           <Bounce>
             <h1>Principales Clientes</h1>
           </Bounce>
-          <br />
+          
           <Bounce cascade left>
             <div>
-              <img src={clientes} alt="" width={800} />
+              <img src={clientes} alt="" width={700} className="img-fluid" />
             </div>
           </Bounce>
-          <br /> <br />
           <Bounce>
             <p>...Más de 250 clientes en total</p>
           </Bounce>
