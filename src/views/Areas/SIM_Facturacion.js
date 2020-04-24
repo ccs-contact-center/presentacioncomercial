@@ -36,7 +36,7 @@ class Comercial extends Component {
               >
                 <img
                   src={people}
-                  width={320}
+                  width={300}
                   alt="logo"
                   className="img-fluid"
                 />
@@ -47,7 +47,7 @@ class Comercial extends Component {
                 className="info-item"
                 style={{ margin: "-1vw", marginTop: "2vw" }}
               >
-                <img src={money} width={350} alt="logo" className="img-fluid" />
+                <img src={money} width={300} alt="logo" className="img-fluid" />
               </div>
             </Zoom>
           </div>
