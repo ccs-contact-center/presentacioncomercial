@@ -66,7 +66,7 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="implementacion">
-        <div className="content" style={{padding:'0px'}}>
+        <div className="content" style={{padding:'15px'}}>
           <div className="slide">
             <Bounce>
               <h1>Clientes</h1>
@@ -199,7 +199,7 @@ class Comercial extends Component {
             <Bounce>
               <h1>Clientes</h1>
             </Bounce>
-            <br /> <br />
+            
             <div
               style={{
                 backgroundColor: "rgba(255,255,255,0.8)",
@@ -337,7 +337,7 @@ class Comercial extends Component {
             <Bounce>
               <h1>Clientes</h1>
             </Bounce>
-            <br /> <br />
+          
             <div
               style={{
                 backgroundColor: "rgba(255,255,255,0.8)",
