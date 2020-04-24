@@ -11,7 +11,7 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="operaciones">
-        <div className="content">
+        <div className="content" style={{padding:'20px'}}>
           <div className="slide">
             <Zoom>
               <h1>Socios</h1>
@@ -21,13 +21,16 @@ class Comercial extends Component {
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
-                  <Avatar
+                 <div className="centrado-fila">
+                 <Avatar
+                    
                     style={{cursor:'pointer'}}
                     alt="Jerónimo Fernández"
                     src={avatar1}
                     className="avatar"
                     onClick={() => (window.location.href = "/#Socios/1")}
                   />
+                 </div>
                   <p>Jerónimo Fernández Senderos</p>
                 </div>
                 <div className="avatarcontent">
@@ -69,12 +72,12 @@ class Comercial extends Component {
               <Avatar className="avatarBig" alt="" src={avatar2} />
             </Zoom>
             <br />
-            <br />
+           
 
             <Zoom up>
               <h2>Vivian Cheja Dabbah</h2>
             </Zoom>
-            <br />
+          
             <Zoom right>
               <p>
                 Con 30 años de experiencia, se especializa en la operación y
