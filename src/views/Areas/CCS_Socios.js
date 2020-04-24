@@ -82,8 +82,7 @@ class Comercial extends Component {
               <p>
                 Con 30 años de experiencia, se especializa en la operación y
                 optimización de centros de contacto y gestión de personal.
-              </p>
-              <p>
+              <br/>
                 A lo largo de su trayectoria, ha dirigido importantes firmas en
                 la industria de los centros de contacto, logrando crecimientos
                 de hasta 1,500 estaciones,incrementando la facturación y
@@ -93,6 +92,7 @@ class Comercial extends Component {
                 nivel.
               </p>
             </Zoom>
+            <br/>
           </div>
         </div>
       </div>
