@@ -1,31 +1,31 @@
-import React, { Component } from "react";
-import "../../index.css";
-import "react-circular-progressbar/dist/styles.css";
+import React, { Component } from 'react'
+import '../../index.css'
+import 'react-circular-progressbar/dist/styles.css'
 
-import Zoom from "react-reveal/Bounce";
-import { Avatar } from "@material-ui/core";
-import C1W from "../../assets/img/partners/white/avaya.png";
-import C2W from "../../assets/img/partners/white/genesys.png";
-import C3W from "../../assets/img/partners/white/mitrol.png";
-import C4W from "../../assets/img/partners/white/s1gateway.png";
-import C5W from "../../assets/img/brand/CCS_Blanco.png";
-import CAPP from "../../assets/img/brand/CCS_APP.png";
+import Zoom from 'react-reveal/Bounce'
+import { Avatar } from '@material-ui/core'
+import C1W from '../../assets/img/partners/white/avaya.png'
+import C2W from '../../assets/img/partners/white/genesys.png'
+import C3W from '../../assets/img/partners/white/mitrol.png'
+import C4W from '../../assets/img/partners/white/s1gateway.png'
+import C5W from '../../assets/img/brand/CCS_Blanco.png'
+import CAPP from '../../assets/img/brand/CCS_APP.png'
 
-import app1 from "../../assets/img/brand/app1.PNG";
-import app2 from "../../assets/img/brand/app2.PNG";
+import app1 from '../../assets/img/brand/app1.PNG'
+import app2 from '../../assets/img/brand/app2.PNG'
 
-import dashboard from "../../assets/img/brand/dashboard.png";
+import dashboard from '../../assets/img/brand/dashboard.png'
 
-import C1T from "../../assets/img/partners/transparent/avaya.png";
-import C2T from "../../assets/img/partners/transparent/genesys.png";
-import C3T from "../../assets/img/partners/transparent/mitrol.png";
-import C4T from "../../assets/img/partners/transparent/s1gateway.png";
+import C1T from '../../assets/img/partners/transparent/avaya.png'
+import C2T from '../../assets/img/partners/transparent/genesys.png'
+import C3T from '../../assets/img/partners/transparent/mitrol.png'
+import C4T from '../../assets/img/partners/transparent/s1gateway.png'
 
 class Comercial extends Component {
   render() {
     return (
       <div className="section" id="operaciones">
-        <div className="content" style={{padding:'0px'}}>
+        <div className="content" style={{ padding: '20px' }}>
           <div className="slide">
             <Zoom>
               <h1>Tecnología</h1>
@@ -36,31 +36,31 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Outsourcing"
                     src={C1W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/1")}
+                    onClick={() => (window.location.href = '/#Tecnologia/1')}
                   />
                   <p>Avaya</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={C2W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/2")}
+                    onClick={() => (window.location.href = '/#Tecnologia/2')}
                   />
                   <p>Genesys</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={CAPP}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/5")}
+                    onClick={() => (window.location.href = '/#Tecnologia/5')}
                   />
                   <p>Aplicación CCS</p>
                 </div>
@@ -71,31 +71,31 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Calidad"
                     src={C3W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/3")}
+                    onClick={() => (window.location.href = '/#Tecnologia/3')}
                   />
                   <p>Mitrol</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={C4W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/4")}
+                    onClick={() => (window.location.href = '/#Tecnologia/4')}
                   />
                   <p>S1 Gateway</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={C5W}
                     className="avatarS"
-                    onClick={() => (window.location.href = "/#Tecnologia/6")}
+                    onClick={() => (window.location.href = '/#Tecnologia/6')}
                   />
                   <p>Dashboards Online</p>
                 </div>
@@ -116,10 +116,10 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
-                backgroundColor: "rgba(255,255,255,0.7)",
-                padding: "2vw",
-                borderRadius: "5px"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
+                backgroundColor: 'rgba(255,255,255,0.7)',
+                padding: '2vw',
+                borderRadius: '5px',
               }}
             />
             <br />
@@ -146,10 +146,10 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
-                backgroundColor: "rgba(255,255,255,0.7)",
-                padding: "-5vw",
-                borderRadius: "5px"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
+                backgroundColor: 'rgba(255,255,255,0.7)',
+                padding: '-5vw',
+                borderRadius: '5px',
               }}
             />
             <br />
@@ -175,10 +175,10 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
-                backgroundColor: "rgba(255,255,255,0.7)",
-                padding: "-5vw",
-                borderRadius: "5px"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
+                backgroundColor: 'rgba(255,255,255,0.7)',
+                padding: '-5vw',
+                borderRadius: '5px',
               }}
             />
             <br />
@@ -198,7 +198,6 @@ class Comercial extends Component {
             <br />
             <br />
             <br />
-          
 
             <img
               src={C4T}
@@ -206,10 +205,10 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))",
-                backgroundColor: "rgba(255,255,255,0.7)",
-                padding: "5vw",
-                borderRadius: "5px"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
+                backgroundColor: 'rgba(255,255,255,0.7)',
+                padding: '5vw',
+                borderRadius: '5px',
               }}
             />
 
@@ -243,7 +242,7 @@ class Comercial extends Component {
               width={200}
               alt="logo"
               className="img-fluid"
-              style={{ marginRight: "2vw" }}
+              style={{ marginRight: '2vw' }}
             />
             <img src={app2} width={200} alt="logo" className="img-fluid" />
           </div>
@@ -254,14 +253,17 @@ class Comercial extends Component {
               los datos de tu servicio desde cualquier navegador, para ayudarte
               a tomar decisiones en el momento
             </p>
-            <br />
+        
 
             <img src={dashboard} width={900} alt="logo" className="img-fluid" />
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+              Regresar
+            </span>
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Comercial;
+export default Comercial
