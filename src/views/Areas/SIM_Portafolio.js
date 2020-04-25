@@ -26,7 +26,7 @@ class Comercial extends Component {
            <div className="centrado-fila">
            <img
               src={SIM}
-              width={600}
+              width={750}
               alt="logo"
               className="img-fluid"
               style={{
