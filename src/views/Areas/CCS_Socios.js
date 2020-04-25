@@ -46,7 +46,7 @@ class Comercial extends Component {
               </div>
             </Zoom>
           </div>
-          <div className="slide">
+          <div className="slide centrado-fila">
             <Zoom left>
               <Avatar className="avatarBig" alt="" src={avatar1} />
             </Zoom>
