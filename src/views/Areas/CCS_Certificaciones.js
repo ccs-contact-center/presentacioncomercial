@@ -1,26 +1,26 @@
-import React, { Component } from "react";
-import "../../index.css";
-import "react-circular-progressbar/dist/styles.css";
+import React, { Component } from 'react'
+import '../../index.css'
+import 'react-circular-progressbar/dist/styles.css'
 
-import Zoom from "react-reveal/Bounce";
-import { Avatar } from "@material-ui/core";
-import C1W from "../../assets/img/certificaciones/white/iso9001.png";
-import C2W from "../../assets/img/certificaciones/white/iso27001.png";
-import C3W from "../../assets/img/certificaciones/white/itil.png";
-import C4W from "../../assets/img/certificaciones/white/copc.png";
-import C5W from "../../assets/img/certificaciones/white/stps.png";
-import C6W from "../../assets/img/certificaciones/white/conocer.png";
+import Zoom from 'react-reveal/Bounce'
+import { Avatar } from '@material-ui/core'
+import C1W from '../../assets/img/certificaciones/white/iso9001.png'
+import C2W from '../../assets/img/certificaciones/white/iso27001.png'
+import C3W from '../../assets/img/certificaciones/white/itil.png'
+import C4W from '../../assets/img/certificaciones/white/copc.png'
+import C5W from '../../assets/img/certificaciones/white/stps.png'
+import C6W from '../../assets/img/certificaciones/white/conocer.png'
 
-import C1T from "../../assets/img/certificaciones/transparent/iso9001.png";
-import C2T from "../../assets/img/certificaciones/transparent/iso27001.png";
-import C3T from "../../assets/img/certificaciones/transparent/itil.png";
-import C4T from "../../assets/img/certificaciones/transparent/copc.png";
+import C1T from '../../assets/img/certificaciones/transparent/iso9001.png'
+import C2T from '../../assets/img/certificaciones/transparent/iso27001.png'
+import C3T from '../../assets/img/certificaciones/transparent/itil.png'
+import C4T from '../../assets/img/certificaciones/transparent/copc.png'
 
 class Comercial extends Component {
   render() {
     return (
       <div className="section" id="operaciones">
-        <div className="content" style={{padding:'0px'}} >
+        <div className="content" style={{ padding: '20px' }}>
           <div className="slide">
             <Zoom>
               <h1>Certificaciones</h1>
@@ -31,36 +31,36 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Outsourcing"
                     src={C1W}
                     className="avatarS"
                     onClick={() =>
-                      (window.location.href = "/#Certificaciones/1")
+                      (window.location.href = '/#Certificaciones/1')
                     }
                   />
                   <p>ISO 9001</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={C2W}
                     className="avatarS"
                     onClick={() =>
-                      (window.location.href = "/#Certificaciones/2")
+                      (window.location.href = '/#Certificaciones/2')
                     }
                   />
                   <p>ISO 27001</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Consultoría"
                     src={C3W}
                     className="avatarS"
                     onClick={() =>
-                      (window.location.href = "/#Certificaciones/3")
+                      (window.location.href = '/#Certificaciones/3')
                     }
                   />
                   <p>ITIL</p>
@@ -72,36 +72,36 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Calidad"
                     src={C4W}
                     className="avatarS"
                     onClick={() =>
-                      (window.location.href = "/#Certificaciones/4")
+                      (window.location.href = '/#Certificaciones/4')
                     }
                   />
                   <p>COPC</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={C5W}
                     className="avatarS"
                     onClick={() =>
-                      (window.location.href = "/#Certificaciones/5")
+                      (window.location.href = '/#Certificaciones/5')
                     }
                   />
                   <p>STPS</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Business Intelligence"
                     src={C6W}
                     className="avatarS"
                     onClick={() =>
-                      (window.location.href = "/#Certificaciones/6")
+                      (window.location.href = '/#Certificaciones/6')
                     }
                   />
                   <p>CONOCER</p>
@@ -117,7 +117,7 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
               }}
             />
             <br />
@@ -137,6 +137,9 @@ class Comercial extends Component {
               enfoque basado en la toma de decisiones y las buenas relaciones
               con el proveedor.
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <img
@@ -145,7 +148,7 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
               }}
             />
             <br />
@@ -166,6 +169,9 @@ class Comercial extends Component {
               investigar dónde están los riesgos y luego tratarlos
               sistemáticamente.
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -179,7 +185,7 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
               }}
             />
             <br />
@@ -198,6 +204,9 @@ class Comercial extends Component {
               <li>Ahorro financiero</li>
               <li>Incrementa la productividad</li>
             </ul>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -211,7 +220,7 @@ class Comercial extends Component {
               alt="logo"
               className="img-fluid"
               style={{
-                filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.5))',
               }}
             />
             <br />
@@ -230,6 +239,9 @@ class Comercial extends Component {
               procedimientos operativos, además de gestionar, medir y capacitar
               a nuestro personal.
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -241,7 +253,7 @@ class Comercial extends Component {
               alt="Capacitación"
               src={C5W}
               className="avatarSE"
-              style={{ marginLeft: "30vw" }}
+              style={{ marginLeft: '30vw' }}
             />
             <br />
             <br />
@@ -255,6 +267,9 @@ class Comercial extends Component {
               habilidades, destrezas, conocimiento y actitudes que el Estándar
               de competencia solicita.
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -266,7 +281,7 @@ class Comercial extends Component {
               alt="Capacitación"
               src={C6W}
               className="avatarSE"
-              style={{ marginLeft: "30vw" }}
+              style={{ marginLeft: '30vw' }}
             />
             <br />
             <br />
@@ -280,11 +295,14 @@ class Comercial extends Component {
               asegura que el desempeño de una persona se ajusta a lo que
               requieren las empresas o instituciones.
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
+              Regresar
+            </span>
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Comercial;
+export default Comercial
