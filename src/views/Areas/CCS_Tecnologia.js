@@ -133,6 +133,9 @@ class Comercial extends Component {
               Technologies, Tiene unos 18,000 empleados desde 2007, el 40% de
               los cuales se encuentran fuera de los EE. UU..
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -164,6 +167,9 @@ class Comercial extends Component {
               California2 y cuenta con oficinas en Canadá, América Latina,
               Europa, Medio Oriente, África, Asia, y Australia
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -191,6 +197,9 @@ class Comercial extends Component {
               diferencial en cada contacto, brindando una verdadera atención
               omnicanal.
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -224,6 +233,9 @@ class Comercial extends Component {
               deriva cada mensaje al agente o chatbot que corresponda para
               optimizar procesos y reducir los tiempos de atención.
             </p>
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <br />
@@ -245,6 +257,9 @@ class Comercial extends Component {
               style={{ marginRight: '2vw' }}
             />
             <img src={app2} width={200} alt="logo" className="img-fluid" />
+            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+              Regresar
+            </span>
           </div>
           <div className="slide">
             <h2>Dashboards Web</h2>
