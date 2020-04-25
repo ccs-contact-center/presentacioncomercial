@@ -33,7 +33,7 @@ class Comercial extends Component {
                  </div>
                   <p>Jerónimo Fernández Senderos</p>
                 </div>
-                <div className="avatarcontent">
+                <div className="avatarcontent centrado-fila">
                   <Avatar
                     style={{cursor:'pointer'}}
                     alt="Vivian Cheja"
@@ -68,7 +68,7 @@ class Comercial extends Component {
             </Zoom>*/}
           </div>
           <div className="slide">
-            <Zoom left>
+            <Zoom left className="centrado-fila">
               <Avatar className="avatarBig" alt="" src={avatar2} />
             </Zoom>
             <br />
