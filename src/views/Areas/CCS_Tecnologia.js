@@ -133,7 +133,11 @@ class Comercial extends Component {
               Technologies, Tiene unos 18,000 empleados desde 2007, el 40% de
               los cuales se encuentran fuera de los EE. UU..
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+            <span 
+              style={{cursor: 'pointer'}} 
+              className="icon-arrow-left regresar float-left" 
+              onClick={() => (window.location.href = '/#Tecnologia')}
+              >
               Regresar
             </span>
           </div>
@@ -271,9 +275,19 @@ class Comercial extends Component {
         
 
             <img src={dashboard} width={900} alt="logo" className="img-fluid" />
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
-              Regresar
-            </span>
+            <div>
+                  <p
+                    style={{
+                      cursor: 'pointer',
+                      marginTop: '-10px',
+                      color: 'black',
+                    }}
+                    className="icon-arrow-left regresar float-left"
+                    onClick={() => (window.location.href = '/#Clientes')}
+                  >
+                    Regresar
+                  </p>
+                </div>
           </div>
         </div>
       </div>
