@@ -1,45 +1,44 @@
-import React, { Component } from "react";
-import "../../index.css";
-import "react-circular-progressbar/dist/styles.css";
+import React, { Component } from 'react'
+import '../../index.css'
+import 'react-circular-progressbar/dist/styles.css'
 
-import Zoom from "react-reveal/Zoom";
-import avant from "../../assets/img/brand/avant.png";
-import seac from "../../assets/img/brand/seac.png";
-import sim from "../../assets/img/brand/sim.png";
-import ccs from "../../assets/img/brand/ccs.png";
+import Zoom from 'react-reveal/Zoom'
+import avant from '../../assets/img/brand/avant.png'
+import seac from '../../assets/img/brand/seac.png'
+import sim from '../../assets/img/brand/sim.png'
+import ccs from '../../assets/img/brand/ccs.png'
 
-import { Avatar } from "@material-ui/core";
+import { Avatar } from '@material-ui/core'
 
 class Comercial extends Component {
   render() {
     return (
       <div className="section" id="implementacion">
-        <div className="content" style={{padding:'20px'}}>
+        <div className="content" style={{ padding: '20px' }}>
           <div className="slide">
             <Zoom>
               <h1>Empresas del Grupo</h1>
             </Zoom>
-            <br />
-          
+
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Outsourcing"
                     src={avant}
                     className="avatarSE"
-                    onClick={() => (window.location.href = "/#SimBrands/1")}
+                    onClick={() => (window.location.href = '/#SimBrands/1')}
                   />
                   <p>Avant</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={sim}
                     className="avatarSE"
-                    onClick={() => (window.location.href = "/#SimBrands/2")}
+                    onClick={() => (window.location.href = '/#SimBrands/2')}
                   />
                   <p>SEAC</p>
                 </div>
@@ -50,21 +49,21 @@ class Comercial extends Component {
               <div className="horizontalContent">
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Calidad"
                     src={seac}
                     className="avatarSE"
-                    onClick={() => (window.location.href = "/#SimBrands/3")}
+                    onClick={() => (window.location.href = '/#SimBrands/3')}
                   />
                   <p>Sim Tecnología</p>
                 </div>
                 <div className="avatarcontent">
                   <Avatar
-                    style={{cursor:'pointer'}}
+                    style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={ccs}
                     className="avatarSE"
-                    onClick={() => (window.location.href = "/#CCS")}
+                    onClick={() => (window.location.href = '/#CCS')}
                   />
                   <p>CCS</p>
                 </div>
@@ -77,7 +76,7 @@ class Comercial extends Component {
               alt="Outsourcing"
               src={avant}
               className="avatarSE"
-              style={{ marginLeft: "30vw" }}
+              style={{ marginLeft: '30vw' }}
             />
             {/*<img
               src={avant}
@@ -117,7 +116,7 @@ class Comercial extends Component {
               alt="Outsourcing"
               src={sim}
               className="avatarSE"
-              style={{ marginLeft: "30vw" }}
+              style={{ marginLeft: '30vw' }}
             />
             {/*<img
               src={sim}
@@ -151,7 +150,7 @@ class Comercial extends Component {
               alt="Outsourcing"
               src={seac}
               className="avatarSE"
-              style={{ marginLeft: "30vw" }}
+              style={{ marginLeft: '30vw' }}
             />
             {/*<img
               src={seac}
@@ -191,8 +190,8 @@ class Comercial extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Comercial;
+export default Comercial
