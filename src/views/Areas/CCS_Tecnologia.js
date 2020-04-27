@@ -204,7 +204,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Tecnologia')}
               >
-                Regresar
+                
               </p>
             </div>
           </div>
