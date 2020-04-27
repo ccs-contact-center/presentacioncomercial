@@ -30,8 +30,14 @@ html body .app.flex-row.align-items-center {
 }
 .regresar2:hover{
   color: rgb(201, 21, 21) !important;
- 
-  
+}
+
+.zoom:hover {
+  transform: scale(1.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+div{
+  border: solid 1px;
 }
 
 
