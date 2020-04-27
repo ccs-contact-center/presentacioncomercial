@@ -14,7 +14,7 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="implementacion">
-        <div className="content" style={{ padding: '20px' }}>
+        <div className="content centrado-fila" style={{ padding: '20px' }}>
           <div className="slide">
             <Grid container className="centrado-fila">
               <Grid item xs={12}>
