@@ -8,9 +8,9 @@ import SIM from "../../assets/img//portafolios.png";
 class Comercial extends Component {
   render() {
     return (
-      <div className="section" id="implementacion">
-        <div className="content">
-          <br/>
+      <div className="section centrado-fila" id="implementacion">
+        <div className="content" style={{padding:'20px',}}>
+       
           <Zoom>
             <h1>Servicios</h1>
           </Zoom>
@@ -23,7 +23,7 @@ class Comercial extends Component {
             </p>
           </Zoom>
           <Zoom>
-           <div className="centrado-fila">
+        
            <img
               src={SIM}
               width={750}
@@ -33,7 +33,7 @@ class Comercial extends Component {
                 filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
               }}
             />
-           </div>
+          
           </Zoom>
         </div>
       </div>
