@@ -33,7 +33,7 @@ class Comercial extends Component {
             <Zoom>
               <h1>Productos</h1>
             </Zoom>
-            <br />
+          
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
@@ -330,22 +330,22 @@ class Comercial extends Component {
             <h1>Business Intelligence</h1>
 
             <Zoom cascade right>
-              <div className="info-box">
-                <div className="info-item">
+              <div className="info-box" style={{marginTop:'5px'}}>
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Con la información de tu mercado te proponemos grandes
                     caminos.
                   </p>
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={bi1} alt="" width={250} className="imgCheck" />
                 </div>
 
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={bi2} alt="" width={250} className="imgCheck" />
                 </div>
-                <div className="info-item">
-                  <p>
+                <div className="info-item" style={{marginBottom:'5px'}}>
+                  <p style={{marginBottom:'5px'}}>
                     Con base en métodos estadisticos de forecasting y analisis
                     de tendencias, convertimos los datos que generan tus
                     servicios en estrategias que incrementan las ventas y la
@@ -362,7 +362,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    Regresar
+                    
                   </p>
                 </div>
               </div>
