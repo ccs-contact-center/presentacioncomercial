@@ -50,8 +50,7 @@ class Comercial extends Component {
               </Grid>
             </Grid>
 
-            <br />
-            <br />
+         
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
@@ -153,23 +152,28 @@ class Comercial extends Component {
               Technologies, Tiene unos 18,000 empleados desde 2007, el 40% de
               los cuales se encuentran fuera de los EE. UU..
             </p>
-            <span
-              style={{ cursor: 'pointer' }}
-              className="icon-arrow-left regresar float-left"
-              onClick={() => (window.location.href = '/#Tecnologia')}
-            >
-              Regresar
-            </span>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Tecnologia')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <br />
-            <br />
-            <br />
+        
 
             <img
               src={C2T}
-              width={500}
-              height={200}
+              width={400}
+              height={100}
               alt="logo"
               className="img-fluid"
               style={{
@@ -181,8 +185,7 @@ class Comercial extends Component {
             />
             <br />
             <br />
-            <br />
-            <br />
+        
             <p>
               Genesys es una empresa que vende experiencia del cliente y
               tecnología de centros de llamadas para medianas y grandes
@@ -191,21 +194,26 @@ class Comercial extends Component {
               California2 y cuenta con oficinas en Canadá, América Latina,
               Europa, Medio Oriente, África, Asia, y Australia
             </p>
-            <span
-              style={{ cursor: 'pointer' }}
-              className="icon-arrow-left regresar float-left"
-              onClick={() => (window.location.href = '/#Tecnologia')}
-            >
-              Regresar
-            </span>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Tecnologia')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
-            <br />
-            <br />
+          
 
             <img
               src={C3T}
-              width={300}
+              width={270}
               alt="logo"
               className="img-fluid"
               style={{
@@ -215,7 +223,6 @@ class Comercial extends Component {
                 borderRadius: '5px',
               }}
             />
-            <br />
             <br />
             <br />
             <p>
@@ -225,20 +232,24 @@ class Comercial extends Component {
               diferencial en cada contacto, brindando una verdadera atención
               omnicanal.
             </p>
-            <span
-              style={{ cursor: 'pointer' }}
-              className="icon-arrow-left regresar float-left"
-              onClick={() => (window.location.href = '/#Tecnologia')}
-            >
-              Regresar
-            </span>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Tecnologia')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <br />
             <br />
-            <br />
-            <br />
-            <br />
+           
 
             <img
               src={C4T}
@@ -255,8 +266,7 @@ class Comercial extends Component {
 
             <br />
             <br />
-            <br />
-            <br />
+         
             <p>
               S1 Gateway es una plataforma de atención al cliente que optimiza
               las experiencias de los usuarios. Hace que sea sencillo mejorar la
@@ -265,16 +275,22 @@ class Comercial extends Component {
               deriva cada mensaje al agente o chatbot que corresponda para
               optimizar procesos y reducir los tiempos de atención.
             </p>
-            <span
-              style={{ cursor: 'pointer' }}
-              className="icon-arrow-left regresar float-left"
-              onClick={() => (window.location.href = '/#Tecnologia')}
-            >
-              Regresar
-            </span>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Tecnologia')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
-            <br />
+         
 
             <h2>Aplicación CCS</h2>
             <p>
@@ -286,19 +302,25 @@ class Comercial extends Component {
 
             <img
               src={app1}
-              width={200}
+              width={150}
               alt="logo"
               className="img-fluid"
               style={{ marginRight: '2vw' }}
             />
-            <img src={app2} width={200} alt="logo" className="img-fluid" />
-            <span
-              style={{ cursor: 'pointer' }}
-              className="icon-arrow-left regresar float-left"
-              onClick={() => (window.location.href = '/#Tecnologia')}
-            >
-              Regresar
-            </span>
+            <img src={app2} width={150} alt="logo" className="img-fluid" />
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Tecnologia')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <h2>Dashboards Web</h2>
