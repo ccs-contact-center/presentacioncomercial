@@ -108,22 +108,22 @@ class Comercial extends Component {
           <div className="slide">
             <h1>Outsourcing</h1>
             <Zoom cascade right>
-              <div className="info-box">
-                <div className="info-item">
+              <div className="info-box" style={{marginTop:'5px'}}>
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Implementamos y operamos tu contact center en nuestras
                     instalaciones con personal altamente capacitado y la máxima
                     fiabilidad en el servicio.
                   </p>
                 </div>
-                <div className="info-item">
-                  <img src={os1} alt="" width={350} className="imgCheck" />
+                <div className="info-item" style={{marginBottom:'5px'}}>
+                  <img src={os1} alt="" width={250} className="imgCheck" />
                 </div>
 
-                <div className="info-item">
-                  <img src={os2} alt="" width={400} className="imgCheck" />
+                <div className="info-item" style={{marginBottom:'5px'}}>
+                  <img src={os2} alt="" width={250} className="imgCheck" />
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Diseñamos la estrategia perfecta para proporcionar un
                     servicio único y omnicanal,con la máxima calidad y cercano a
@@ -162,11 +162,11 @@ class Comercial extends Component {
                   </p>
                 </div>
                 <div className="info-item" style={{marginBottom:'5px'}}>
-                  <img src={cs1} alt="" width={220} className="imgCheck" />
+                  <img src={cs1} alt="" width={240} className="imgCheck" />
                 </div>
 
                 <div className="info-item" style={{marginBottom:'5px'}}>
-                  <img src={cs2} alt="" width={220} className="imgCheck" />
+                  <img src={cs2} alt="" width={240} className="imgCheck" />
                 </div>
                 <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
