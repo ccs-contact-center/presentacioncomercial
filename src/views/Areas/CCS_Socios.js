@@ -16,7 +16,6 @@ class Comercial extends Component {
             <Zoom>
               <h1>Socios</h1>
             </Zoom>
-            <br />
          
             <Zoom cascade>
               <div className="horizontalContent">
