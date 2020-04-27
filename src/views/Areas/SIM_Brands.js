@@ -13,11 +13,11 @@ import { Avatar, Grid } from '@material-ui/core'
 class Comercial extends Component {
   render() {
     return (
-      <div className="section" id="implementacion">
-        <div className="content centrado-fila" style={{ padding: '20px' }}>
-          <div className="slide">
-            <Grid container className="centrado-fila">
-              <Grid item xs={12}>
+      <div className="section " id="implementacion">
+        <div className="content  " style={{ padding: '20px' }}>
+          <div className="slide ">
+            <Grid container alignItems="center">
+              <Grid item xs={12} >
                 <Zoom>
                   <h1>Empresas del Grupo</h1>
                 </Zoom>
