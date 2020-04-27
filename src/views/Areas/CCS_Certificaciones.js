@@ -26,7 +26,6 @@ class Comercial extends Component {
               <h1>Certificaciones</h1>
             </Zoom>
             <br />
-            <br />
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
@@ -113,7 +112,7 @@ class Comercial extends Component {
           <div className="slide">
             <img
               src={C1T}
-              width={300}
+              width={230}
               alt="logo"
               className="img-fluid"
               style={{
@@ -137,14 +136,24 @@ class Comercial extends Component {
               enfoque basado en la toma de decisiones y las buenas relaciones
               con el proveedor.
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
-              Regresar
-            </span>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Certificaciones')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <img
               src={C2T}
-              width={300}
+              width={230}
               alt="logo"
               className="img-fluid"
               style={{
@@ -152,7 +161,7 @@ class Comercial extends Component {
               }}
             />
             <br />
-            <br />
+           
             <p>
               La seguridad de tu información es fundamental para nosotros, por
               lo cual contamos con la certificación ISO 27001, que garantiza la
@@ -169,16 +178,25 @@ class Comercial extends Component {
               investigar dónde están los riesgos y luego tratarlos
               sistemáticamente.
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
-              Regresar
-            </span>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Certificaciones')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
+           
+            
+           
             <img
               src={C3T}
               width={300}
@@ -204,16 +222,27 @@ class Comercial extends Component {
               <li>Ahorro financiero</li>
               <li>Incrementa la productividad</li>
             </ul>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
-              Regresar
-            </span>
+            <br />
+          
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Certificaciones')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <br />
             <br />
-            <br />
-            <br />
-            <br />
+           
+            
             <img
               src={C4T}
               width={300}
@@ -239,16 +268,27 @@ class Comercial extends Component {
               procedimientos operativos, además de gestionar, medir y capacitar
               a nuestro personal.
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
-              Regresar
-            </span>
+            <br />
+            <br />
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Certificaciones')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <br />
             <br />
             <br />
-            <br />
-            <br />
+            
             <Avatar
               alt="Capacitación"
               src={C5W}
@@ -267,16 +307,27 @@ class Comercial extends Component {
               habilidades, destrezas, conocimiento y actitudes que el Estándar
               de competencia solicita.
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
-              Regresar
-            </span>
+            <br />
+            <br />
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Certificaciones')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
           <div className="slide">
             <br />
             <br />
             <br />
-            <br />
-            <br />
+            
             <Avatar
               alt="Capacitación"
               src={C6W}
@@ -295,9 +346,21 @@ class Comercial extends Component {
               asegura que el desempeño de una persona se ajusta a lo que
               requieren las empresas o instituciones.
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Certificaciones')}>
-              Regresar
-            </span>
+            <br />
+            <br />
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Certificaciones')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
         </div>
       </div>
