@@ -142,7 +142,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    Regresar
+                    
                   </p>
                 </div>
               </div>
@@ -153,22 +153,22 @@ class Comercial extends Component {
             <Zoom cascade left>
               <h1>Cosourcing</h1>
 
-              <div className="info-box">
-                <div className="info-item">
+              <div className="info-box" style={{marginTop:'5px'}}>
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Con nuestra amplia experiencia, operamos tu contact center
                     en tus propias instalaciones, logrando sustanciales
                     incrementos en la productividad y efectividad de tu personal
                   </p>
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={cs1} alt="" width={220} className="imgCheck" />
                 </div>
 
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={cs2} alt="" width={220} className="imgCheck" />
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Te asesoramos para mejorar tus procesos y ejecutarlos de la
                     manera mas eficiente, para reflejarlo en la calidad del
@@ -185,7 +185,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    Regresar
+                    
                   </p>
                 </div>
               </div>
@@ -195,14 +195,14 @@ class Comercial extends Component {
             <h1>Consultoría</h1>
 
             <Zoom cascade right>
-              <div className="info-box">
-                <div className="info-item">
+              <div className="info-box" style={{marginTop:'5px'}}>
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Te ayudamos a competir en la industria y a generar planes
                     estratégicos de mejora.
                   </p>
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img
                     src={consultoria1}
                     alt=""
@@ -211,7 +211,7 @@ class Comercial extends Component {
                   />
                 </div>
 
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img
                     src={consultoria2}
                     alt=""
@@ -219,7 +219,7 @@ class Comercial extends Component {
                     className="imgCheck"
                   />
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Nuestros consultores cuentan con una experiencia de más de
                     20 años en la industria, permitiendonos brindarte las
@@ -236,7 +236,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    Regresar
+                    
                   </p>
                 </div>
               </div>
@@ -246,21 +246,21 @@ class Comercial extends Component {
             <h1>Calidad</h1>
 
             <Zoom cascade right>
-              <div className="info-box">
-                <div className="info-item">
+              <div className="info-box" style={{marginTop:'5px'}}>
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Establecemos los procesos para alcanzar la excelencia en el
                     customer experience.
                   </p>
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={qa1} alt="" width={250} className="imgCheck" />
                 </div>
 
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={qa2} alt="" width={250} className="imgCheck" />
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Nuestra area de calidad certificada con ISO 9001 y nuestra
                     metodologia on-demand, eleva los estandares de calidad y
@@ -277,7 +277,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    Regresar
+                    
                   </p>
                 </div>
               </div>
@@ -287,21 +287,21 @@ class Comercial extends Component {
             <h1>Capacitación</h1>
 
             <Zoom cascade right>
-              <div className="info-box">
-                <div className="info-item">
+              <div className="info-box" style={{marginTop:'5px'}}>
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Entendemos a tu personal y aportamos la especialización y el
                     expertis que necesita para desarrollarse.
                   </p>
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={capa1} alt="" width={250} className="imgCheck" />
                 </div>
 
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <img src={capa2} alt="" width={250} className="imgCheck" />
                 </div>
-                <div className="info-item">
+                <div className="info-item" style={{marginBottom:'5px'}}>
                   <p>
                     Nuestro equipo de capacitación utiliza las mejores técnicas
                     pedagogicas y las mejores herramientas disponibles para que
@@ -320,7 +320,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    Regresar
+                    
                   </p>
                 </div>
               </div>
