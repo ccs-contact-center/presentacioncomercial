@@ -28,7 +28,7 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="operaciones">
-        <div className="content" style={{padding:'10px'}}>
+        <div className="content" style={{ padding: '10px' }}>
           <div className="slide">
             <Zoom>
               <h1>Productos</h1>
@@ -132,6 +132,19 @@ class Comercial extends Component {
                     todos los perfiles de tus clientes.
                   </p>
                 </div>
+                <div>
+                  <p
+                    style={{
+                      cursor: 'pointer',
+                      marginTop: '-10px',
+                      color: 'black',
+                    }}
+                    className="icon-arrow-left regresar float-left"
+                    onClick={() => (window.location.href = '/#Productos')}
+                  >
+                    Regresar
+                  </p>
+                </div>
               </div>
             </Zoom>
           </div>
@@ -149,17 +162,30 @@ class Comercial extends Component {
                   </p>
                 </div>
                 <div className="info-item">
-                  <img src={cs1} alt="" width={350} className="imgCheck" />
+                  <img src={cs1} alt="" width={220} className="imgCheck" />
                 </div>
 
                 <div className="info-item">
-                  <img src={cs2} alt="" width={400} className="imgCheck" />
+                  <img src={cs2} alt="" width={220} className="imgCheck" />
                 </div>
                 <div className="info-item">
                   <p>
                     Te asesoramos para mejorar tus procesos y ejecutarlos de la
                     manera mas eficiente, para reflejarlo en la calidad del
                     servicio a tus usuarios finales
+                  </p>
+                </div>
+                <div>
+                  <p
+                    style={{
+                      cursor: 'pointer',
+                      marginTop: '-10px',
+                      color: 'black',
+                    }}
+                    className="icon-arrow-left regresar float-left"
+                    onClick={() => (window.location.href = '/#Productos')}
+                  >
+                    Regresar
                   </p>
                 </div>
               </div>
@@ -180,7 +206,7 @@ class Comercial extends Component {
                   <img
                     src={consultoria1}
                     alt=""
-                    width={350}
+                    width={240}
                     className="imgCheck"
                   />
                 </div>
@@ -189,7 +215,7 @@ class Comercial extends Component {
                   <img
                     src={consultoria2}
                     alt=""
-                    width={400}
+                    width={240}
                     className="imgCheck"
                   />
                 </div>
@@ -198,6 +224,19 @@ class Comercial extends Component {
                     Nuestros consultores cuentan con una experiencia de más de
                     20 años en la industria, permitiendonos brindarte las
                     soluciones que necesitas.
+                  </p>
+                </div>
+                <div>
+                  <p
+                    style={{
+                      cursor: 'pointer',
+                      marginTop: '-10px',
+                      color: 'black',
+                    }}
+                    className="icon-arrow-left regresar float-left"
+                    onClick={() => (window.location.href = '/#Productos')}
+                  >
+                    Regresar
                   </p>
                 </div>
               </div>
@@ -215,17 +254,30 @@ class Comercial extends Component {
                   </p>
                 </div>
                 <div className="info-item">
-                  <img src={qa1} alt="" width={350} className="imgCheck" />
+                  <img src={qa1} alt="" width={250} className="imgCheck" />
                 </div>
 
                 <div className="info-item">
-                  <img src={qa2} alt="" width={400} className="imgCheck" />
+                  <img src={qa2} alt="" width={250} className="imgCheck" />
                 </div>
                 <div className="info-item">
                   <p>
                     Nuestra area de calidad certificada con ISO 9001 y nuestra
                     metodologia on-demand, eleva los estandares de calidad y
                     satisfacción de tus clientes.
+                  </p>
+                </div>
+                <div>
+                  <p
+                    style={{
+                      cursor: 'pointer',
+                      marginTop: '-10px',
+                      color: 'black',
+                    }}
+                    className="icon-arrow-left regresar float-left"
+                    onClick={() => (window.location.href = '/#Productos')}
+                  >
+                    Regresar
                   </p>
                 </div>
               </div>
@@ -243,11 +295,11 @@ class Comercial extends Component {
                   </p>
                 </div>
                 <div className="info-item">
-                  <img src={capa1} alt="" width={350} className="imgCheck" />
+                  <img src={capa1} alt="" width={250} className="imgCheck" />
                 </div>
 
                 <div className="info-item">
-                  <img src={capa2} alt="" width={350} className="imgCheck" />
+                  <img src={capa2} alt="" width={250} className="imgCheck" />
                 </div>
                 <div className="info-item">
                   <p>
@@ -256,6 +308,19 @@ class Comercial extends Component {
                     el personal a capacitar, tenga un dominio excepcional de los
                     conocimientos y habilidades necesarias para operar tu
                     producto
+                  </p>
+                </div>
+                <div>
+                  <p
+                    style={{
+                      cursor: 'pointer',
+                      marginTop: '-10px',
+                      color: 'black',
+                    }}
+                    className="icon-arrow-left regresar float-left"
+                    onClick={() => (window.location.href = '/#Productos')}
+                  >
+                    Regresar
                   </p>
                 </div>
               </div>
@@ -273,11 +338,11 @@ class Comercial extends Component {
                   </p>
                 </div>
                 <div className="info-item">
-                  <img src={bi1} alt="" width={350} className="imgCheck" />
+                  <img src={bi1} alt="" width={250} className="imgCheck" />
                 </div>
 
                 <div className="info-item">
-                  <img src={bi2} alt="" width={350} className="imgCheck" />
+                  <img src={bi2} alt="" width={250} className="imgCheck" />
                 </div>
                 <div className="info-item">
                   <p>
@@ -285,6 +350,19 @@ class Comercial extends Component {
                     de tendencias, convertimos los datos que generan tus
                     servicios en estrategias que incrementan las ventas y la
                     satisfacción de tus clientes
+                  </p>
+                </div>
+                <div>
+                  <p
+                    style={{
+                      cursor: 'pointer',
+                      marginTop: '-10px',
+                      color: 'black',
+                    }}
+                    className="icon-arrow-left regresar float-left"
+                    onClick={() => (window.location.href = '/#Productos')}
+                  >
+                    Regresar
                   </p>
                 </div>
               </div>
