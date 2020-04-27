@@ -21,15 +21,35 @@ import C2T from '../../assets/img/partners/transparent/genesys.png'
 import C3T from '../../assets/img/partners/transparent/mitrol.png'
 import C4T from '../../assets/img/partners/transparent/s1gateway.png'
 
+import Grid from '@material-ui/core/Grid'
+
+
+
 class Comercial extends Component {
+  
   render() {
+    
     return (
       <div className="section" id="operaciones">
         <div className="content" style={{ padding: '20px' }}>
           <div className="slide">
-            <Zoom>
-              <h1>Tecnología</h1>
-            </Zoom>
+            <Grid container spacing={2}>
+              <Grid item xs={12}>
+                <Zoom>
+                  <h1>Tecnología</h1>
+                </Zoom>
+              </Grid>
+              <Grid item xs={4}>
+
+              </Grid>
+              <Grid item xs={4}>
+
+              </Grid>
+              <Grid item xs={4}>
+
+              </Grid>
+            </Grid>
+
             <br />
             <br />
             <Zoom cascade>
@@ -133,11 +153,11 @@ class Comercial extends Component {
               Technologies, Tiene unos 18,000 empleados desde 2007, el 40% de
               los cuales se encuentran fuera de los EE. UU..
             </p>
-            <span 
-              style={{cursor: 'pointer'}} 
-              className="icon-arrow-left regresar float-left" 
+            <span
+              style={{ cursor: 'pointer' }}
+              className="icon-arrow-left regresar float-left"
               onClick={() => (window.location.href = '/#Tecnologia')}
-              >
+            >
               Regresar
             </span>
           </div>
@@ -171,7 +191,11 @@ class Comercial extends Component {
               California2 y cuenta con oficinas en Canadá, América Latina,
               Europa, Medio Oriente, África, Asia, y Australia
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+            <span
+              style={{ cursor: 'pointer' }}
+              className="icon-arrow-left regresar float-left"
+              onClick={() => (window.location.href = '/#Tecnologia')}
+            >
               Regresar
             </span>
           </div>
@@ -201,7 +225,11 @@ class Comercial extends Component {
               diferencial en cada contacto, brindando una verdadera atención
               omnicanal.
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+            <span
+              style={{ cursor: 'pointer' }}
+              className="icon-arrow-left regresar float-left"
+              onClick={() => (window.location.href = '/#Tecnologia')}
+            >
               Regresar
             </span>
           </div>
@@ -237,14 +265,17 @@ class Comercial extends Component {
               deriva cada mensaje al agente o chatbot que corresponda para
               optimizar procesos y reducir los tiempos de atención.
             </p>
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+            <span
+              style={{ cursor: 'pointer' }}
+              className="icon-arrow-left regresar float-left"
+              onClick={() => (window.location.href = '/#Tecnologia')}
+            >
               Regresar
             </span>
           </div>
           <div className="slide">
             <br />
-            <br />
-            <br />
+
             <h2>Aplicación CCS</h2>
             <p>
               Desarrollamos una aplicación para iOS y Android en la que podrás
@@ -261,7 +292,11 @@ class Comercial extends Component {
               style={{ marginRight: '2vw' }}
             />
             <img src={app2} width={200} alt="logo" className="img-fluid" />
-            <span style={{cursor: 'pointer'}} className="icon-arrow-left regresar float-left" onClick={() => (window.location.href = '/#Tecnologia')}>
+            <span
+              style={{ cursor: 'pointer' }}
+              className="icon-arrow-left regresar float-left"
+              onClick={() => (window.location.href = '/#Tecnologia')}
+            >
               Regresar
             </span>
           </div>
@@ -272,22 +307,29 @@ class Comercial extends Component {
               los datos de tu servicio desde cualquier navegador, para ayudarte
               a tomar decisiones en el momento
             </p>
-        
 
-            <img src={dashboard} width={900} alt="logo" className="img-fluid" />
             <div>
-                  <p
-                    style={{
-                      cursor: 'pointer',
-                      marginTop: '-10px',
-                      color: 'black',
-                    }}
-                    className="icon-arrow-left regresar float-left"
-                    onClick={() => (window.location.href = '/#Clientes')}
-                  >
-                    Regresar
-                  </p>
-                </div>
+              <img
+                src={dashboard}
+                width={580}
+                alt="logo"
+                className="img-fluid zoom"
+              />
+              <p className="icon-magnifier " style={{ marginLeft: '-50%' }}></p>
+            </div>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#Tecnologia')}
+              >
+                Regresar
+              </p>
+            </div>
           </div>
         </div>
       </div>
