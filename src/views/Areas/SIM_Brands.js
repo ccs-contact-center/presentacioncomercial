@@ -8,7 +8,7 @@ import seac from '../../assets/img/brand/seac.png'
 import sim from '../../assets/img/brand/sim.png'
 import ccs from '../../assets/img/brand/ccs.png'
 
-import { Avatar } from '@material-ui/core'
+import { Avatar, Grid } from '@material-ui/core'
 
 class Comercial extends Component {
   render() {
@@ -16,59 +16,61 @@ class Comercial extends Component {
       <div className="section" id="implementacion">
         <div className="content" style={{ padding: '20px' }}>
           <div className="slide">
-            <Zoom>
-              <h1>Empresas del Grupo</h1>
-            </Zoom>
-
-            <Zoom cascade>
-              <div className="horizontalContent">
-                <div className="avatarcontent">
-                  <Avatar
-                    style={{ cursor: 'pointer' }}
-                    alt="Outsourcing"
-                    src={avant}
-                    className="avatarSE"
-                    onClick={() => (window.location.href = '/#SimBrands/1')}
-                  />
-                  <p>Avant</p>
-                </div>
-                <div className="avatarcontent">
-                  <Avatar
-                    style={{ cursor: 'pointer' }}
-                    alt="Cosourcing"
-                    src={sim}
-                    className="avatarSE"
-                    onClick={() => (window.location.href = '/#SimBrands/2')}
-                  />
-                  <p>SEAC</p>
-                </div>
-              </div>
-            </Zoom>
-
-            <Zoom cascade>
-              <div className="horizontalContent">
-                <div className="avatarcontent">
-                  <Avatar
-                    style={{ cursor: 'pointer' }}
-                    alt="Calidad"
-                    src={seac}
-                    className="avatarSE"
-                    onClick={() => (window.location.href = '/#SimBrands/3')}
-                  />
-                  <p>Sim Tecnología</p>
-                </div>
-                <div className="avatarcontent">
-                  <Avatar
-                    style={{ cursor: 'pointer' }}
-                    alt="Capacitación"
-                    src={ccs}
-                    className="avatarSE"
-                    onClick={() => (window.location.href = '/#CCS')}
-                  />
-                  <p>CCS</p>
-                </div>
-              </div>
-            </Zoom>
+            <Grid container className="centrado-fila">
+              <Grid item xs={12}>
+                <Zoom>
+                  <h1>Empresas del Grupo</h1>
+                </Zoom>
+                <Zoom cascade>
+                  <div className="horizontalContent">
+                    <div className="avatarcontent">
+                      <Avatar
+                        style={{ cursor: 'pointer' }}
+                        alt="Outsourcing"
+                        src={avant}
+                        className="avatarSE"
+                        onClick={() => (window.location.href = '/#SimBrands/1')}
+                      />
+                      <p>Avant</p>
+                    </div>
+                    <div className="avatarcontent">
+                      <Avatar
+                        style={{ cursor: 'pointer' }}
+                        alt="Cosourcing"
+                        src={sim}
+                        className="avatarSE"
+                        onClick={() => (window.location.href = '/#SimBrands/2')}
+                      />
+                      <p>SEAC</p>
+                    </div>
+                  </div>
+                </Zoom>
+                <Zoom cascade>
+                  <div className="horizontalContent">
+                    <div className="avatarcontent">
+                      <Avatar
+                        style={{ cursor: 'pointer' }}
+                        alt="Calidad"
+                        src={seac}
+                        className="avatarSE"
+                        onClick={() => (window.location.href = '/#SimBrands/3')}
+                      />
+                      <p>Sim Tecnología</p>
+                    </div>
+                    <div className="avatarcontent">
+                      <Avatar
+                        style={{ cursor: 'pointer' }}
+                        alt="Capacitación"
+                        src={ccs}
+                        className="avatarSE"
+                        onClick={() => (window.location.href = '/#CCS')}
+                      />
+                      <p>CCS</p>
+                    </div>
+                  </div>
+                </Zoom>
+              </Grid>
+            </Grid>
           </div>
 
           <div className="slide">
