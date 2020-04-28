@@ -339,7 +339,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar2 float-left"
                     onClick={() => (window.location.href = '/#Clientes')}
                   >
-                    Regresar
+                     <span className="icon-arrow-left"></span>
                   </p>
                 </div>
               </Bounce>
@@ -431,10 +431,10 @@ class Comercial extends Component {
                       marginTop: '-10px',
                       color: 'black',
                     }}
-                    className="icon-arrow-left regresar2 float-left"
+                    className=" icon-arrow-left regresar2 float-left"
                     onClick={() => (window.location.href = '/#Clientes')}
                   >
-                    Regresar
+                    <span className="icon-arrow-left"></span>
                   </p>
                 </div>
               </Bounce>
