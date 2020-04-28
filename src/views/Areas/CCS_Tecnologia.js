@@ -23,34 +23,15 @@ import C4T from '../../assets/img/partners/transparent/s1gateway.png'
 
 import Grid from '@material-ui/core/Grid'
 
-
-
 class Comercial extends Component {
-  
   render() {
-    
     return (
       <div className="section" id="operaciones">
         <div className="content" style={{ padding: '20px' }}>
           <div className="slide">
-            <Grid container spacing={2}>
-              <Grid item xs={12}>
-                <Zoom>
-                  <h1>Tecnología</h1>
-                </Zoom>
-              </Grid>
-              <Grid item xs={4}>
-
-              </Grid>
-              <Grid item xs={4}>
-
-              </Grid>
-              <Grid item xs={4}>
-
-              </Grid>
-            </Grid>
-
-         
+            <Zoom>
+              <h1>Tecnología</h1>
+            </Zoom>
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
@@ -162,13 +143,12 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Tecnologia')}
               >
-                Regresar
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
           <div className="slide">
             <br />
-        
 
             <img
               src={C2T}
@@ -185,7 +165,7 @@ class Comercial extends Component {
             />
             <br />
             <br />
-        
+
             <p>
               Genesys es una empresa que vende experiencia del cliente y
               tecnología de centros de llamadas para medianas y grandes
@@ -204,13 +184,11 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Tecnologia')}
               >
-                
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
           <div className="slide">
-          
-
             <img
               src={C3T}
               width={270}
@@ -242,14 +220,13 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Tecnologia')}
               >
-                Regresar
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
           <div className="slide">
             <br />
             <br />
-           
 
             <img
               src={C4T}
@@ -266,7 +243,7 @@ class Comercial extends Component {
 
             <br />
             <br />
-         
+
             <p>
               S1 Gateway es una plataforma de atención al cliente que optimiza
               las experiencias de los usuarios. Hace que sea sencillo mejorar la
@@ -285,13 +262,11 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Tecnologia')}
               >
-                Regresar
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
           <div className="slide">
-         
-
             <h2>Aplicación CCS</h2>
             <p>
               Desarrollamos una aplicación para iOS y Android en la que podrás
@@ -318,7 +293,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Tecnologia')}
               >
-                Regresar
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -349,7 +324,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Tecnologia')}
               >
-                Regresar
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
