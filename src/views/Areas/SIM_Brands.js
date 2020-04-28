@@ -17,7 +17,7 @@ class Comercial extends Component {
         <div className="content  " style={{ padding: '20px' }}>
           <div className="slide ">
             <Grid container alignItems="center">
-              <Grid item xs={12} >
+              <Grid item xs={12}>
                 <Zoom>
                   <h1>Empresas del Grupo</h1>
                 </Zoom>
@@ -112,6 +112,19 @@ class Comercial extends Component {
               <li>Arrendamiento puro y financiero</li>
               <li>Factoraje financiero</li>
             </ul>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#SimBrands')}
+              >
+                <span className="icon-arrow-left"></span>
+              </p>
+            </div>
           </div>
           <div className="slide">
             <Avatar
@@ -146,6 +159,19 @@ class Comercial extends Component {
               <li>Consultoría en RH.</li>
               <li>Reclutamiento y selección.</li>
             </ul>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#SimBrands')}
+              >
+                <span className="icon-arrow-left"></span>
+              </p>
+            </div>
           </div>
           <div className="slide">
             <Avatar
@@ -165,21 +191,19 @@ class Comercial extends Component {
                 marginTop: "-3vw"
               }}
             />*/}
-            <br />
+         
             <p>
               En 2012 Grupo SIM crea la división de tecnología, empresa
               especializada en la reparación, logística y comercialización de
               productos y servicios relacionados a telecomunicaciones, cómputo y
               electrónicos con cobertura a nivel nacional y proyección
               Internacional.
-            </p>
-            <p>
+           <br/>
+
               Actualmente cuenta con + de 500 colaboradores, ingresos por MXN
               400 millones y presta servicios al 80% de las marcas de celulares
               del mercado Mexicano
-            </p>
-
-            <p>Nuestros priincipales clientes son:</p>
+            <br/>Nuestros priincipales clientes son:</p>
 
             <ul>
               <li>Samsung</li>
@@ -189,6 +213,19 @@ class Comercial extends Component {
               <li>Hisense</li>
               <li>Alcatel</li>
             </ul>
+            <div>
+              <p
+                style={{
+                  cursor: 'pointer',
+                  marginTop: '-10px',
+                  color: 'black',
+                }}
+                className="icon-arrow-left regresar float-left"
+                onClick={() => (window.location.href = '/#SimBrands')}
+              >
+                <span className="icon-arrow-left"></span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
