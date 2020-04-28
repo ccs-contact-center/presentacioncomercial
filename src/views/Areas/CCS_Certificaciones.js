@@ -146,7 +146,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                Regresar
+                 <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -188,7 +188,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                Regresar
+                 <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -234,7 +234,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                Regresar
+                 <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -280,7 +280,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                Regresar
+                 <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -319,7 +319,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                Regresar
+                 <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -358,7 +358,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                Regresar
+                 <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
