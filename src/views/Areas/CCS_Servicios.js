@@ -3,7 +3,7 @@ import '../../index.css'
 import 'react-circular-progressbar/dist/styles.css'
 
 import Zoom from 'react-reveal/Bounce'
-import { Avatar } from '@material-ui/core'
+import { Avatar, Grid } from '@material-ui/core'
 import S1 from '../../assets/img/services/1.jpg'
 import S2 from '../../assets/img/services/2.jpg'
 import S3 from '../../assets/img/services/3.jpg'
@@ -28,12 +28,12 @@ class Comercial extends Component {
   render() {
     return (
       <div className="section" id="operaciones">
-        <div className="content" style={{ padding: '10px' }}>
+        <div className="content" style={{ padding: '20px' }}>
           <div className="slide">
             <Zoom>
               <h1>Productos</h1>
             </Zoom>
-          
+
             <Zoom cascade>
               <div className="horizontalContent">
                 <div className="avatarcontent">
@@ -107,44 +107,51 @@ class Comercial extends Component {
 
           <div className="slide">
             <h1>Outsourcing</h1>
-            <Zoom cascade right>
-              <div className="info-box" style={{marginTop:'5px'}}>
-                <div className="info-item" style={{marginBottom:'5px'}}>
-                  <p>
-                    Implementamos y operamos tu contact center en nuestras
-                    instalaciones con personal altamente capacitado y la máxima
-                    fiabilidad en el servicio.
-                  </p>
-                </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
-                  <img src={os1} alt="" width={250} className="imgCheck" />
-                </div>
 
-                <div className="info-item" style={{marginBottom:'5px'}}>
-                  <img src={os2} alt="" width={250} className="imgCheck" />
-                </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
-                  <p>
-                    Diseñamos la estrategia perfecta para proporcionar un
-                    servicio único y omnicanal,con la máxima calidad y cercano a
-                    tus usuarios finales, por medio de interaciones telefónicas,
-                    e-mail, chats y redes sociales, cubriendo satisfactoriamente
-                    todos los perfiles de tus clientes.
-                  </p>
-                </div>
-                <div>
-                  <p
-                    style={{
-                      cursor: 'pointer',
-                      marginTop: '-10px',
-                      color: 'black',
-                    }}
-                    className="icon-arrow-left regresar float-left"
-                    onClick={() => (window.location.href = '/#Productos')}
-                  >
-                    
-                  </p>
-                </div>
+            <Zoom cascade right>
+              <div >
+                <Grid container className="centrado-fila">
+                  <Grid item md={9}>
+                    <p>
+                      Implementamos y operamos tu contact center en nuestras
+                      instalaciones con personal altamente capacitado y la
+                      máxima fiabilidad en el servicio.
+                    </p>
+                  </Grid>
+                  <Grid item md={3}>
+                    <img src={os1} alt="" width={250} className="" />
+                  </Grid>
+                </Grid>
+                <Grid container className="centrado-fila">
+                  <Grid item md={3}>
+                    <img src={os2} alt="" width={250} className="" />
+                  </Grid>
+                  <Grid item md={9}>
+                    <p style={{ marginLeft: '17px' }}>
+                      Diseñamos la estrategia perfecta para proporcionar un
+                      servicio único y omnicanal,con la máxima calidad y cercano
+                      a tus usuarios finales, por medio de interaciones
+                      telefónicas, e-mail, chats y redes sociales, cubriendo
+                      satisfactoriamente todos los perfiles de tus clientes.
+                    </p>
+                  </Grid>
+                </Grid>
+                <Grid container>
+                  <Grid item md={12}></Grid>
+                  <div>
+                    <p
+                      style={{
+                        cursor: 'pointer',
+                        marginTop: '10px',
+                        color: 'black',
+                      }}
+                      className="icon-arrow-left regresar float-left"
+                      onClick={() => (window.location.href = '/#Productos')}
+                    >
+                      <span className="icon-arrow-left"></span>
+                    </p>
+                  </div>
+                </Grid>
               </div>
             </Zoom>
           </div>
@@ -153,22 +160,22 @@ class Comercial extends Component {
             <Zoom cascade left>
               <h1>Cosourcing</h1>
 
-              <div className="info-box" style={{marginTop:'5px'}}>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+              <div className="info-box" style={{ marginTop: '5px' }}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Con nuestra amplia experiencia, operamos tu contact center
                     en tus propias instalaciones, logrando sustanciales
                     incrementos en la productividad y efectividad de tu personal
                   </p>
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={cs1} alt="" width={240} className="imgCheck" />
                 </div>
 
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={cs2} alt="" width={240} className="imgCheck" />
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Te asesoramos para mejorar tus procesos y ejecutarlos de la
                     manera mas eficiente, para reflejarlo en la calidad del
@@ -185,7 +192,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    
+                    <span className="icon-arrow-left"></span>
                   </p>
                 </div>
               </div>
@@ -195,14 +202,14 @@ class Comercial extends Component {
             <h1>Consultoría</h1>
 
             <Zoom cascade right>
-              <div className="info-box" style={{marginTop:'5px'}}>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+              <div className="info-box" style={{ marginTop: '5px' }}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Te ayudamos a competir en la industria y a generar planes
                     estratégicos de mejora.
                   </p>
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img
                     src={consultoria1}
                     alt=""
@@ -211,7 +218,7 @@ class Comercial extends Component {
                   />
                 </div>
 
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img
                     src={consultoria2}
                     alt=""
@@ -219,7 +226,7 @@ class Comercial extends Component {
                     className="imgCheck"
                   />
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Nuestros consultores cuentan con una experiencia de más de
                     20 años en la industria, permitiendonos brindarte las
@@ -236,7 +243,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    
+                    <span className="icon-arrow-left"></span>
                   </p>
                 </div>
               </div>
@@ -246,21 +253,21 @@ class Comercial extends Component {
             <h1>Calidad</h1>
 
             <Zoom cascade right>
-              <div className="info-box" style={{marginTop:'5px'}}>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+              <div className="info-box" style={{ marginTop: '5px' }}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Establecemos los procesos para alcanzar la excelencia en el
                     customer experience.
                   </p>
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={qa1} alt="" width={250} className="imgCheck" />
                 </div>
 
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={qa2} alt="" width={250} className="imgCheck" />
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Nuestra area de calidad certificada con ISO 9001 y nuestra
                     metodologia on-demand, eleva los estandares de calidad y
@@ -277,7 +284,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    
+                    <span className="icon-arrow-left"></span>
                   </p>
                 </div>
               </div>
@@ -287,21 +294,21 @@ class Comercial extends Component {
             <h1>Capacitación</h1>
 
             <Zoom cascade right>
-              <div className="info-box" style={{marginTop:'5px'}}>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+              <div className="info-box" style={{ marginTop: '5px' }}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Entendemos a tu personal y aportamos la especialización y el
                     expertis que necesita para desarrollarse.
                   </p>
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={capa1} alt="" width={250} className="imgCheck" />
                 </div>
 
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={capa2} alt="" width={250} className="imgCheck" />
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Nuestro equipo de capacitación utiliza las mejores técnicas
                     pedagogicas y las mejores herramientas disponibles para que
@@ -320,7 +327,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    
+                    <span className="icon-arrow-left"></span>
                   </p>
                 </div>
               </div>
@@ -330,22 +337,22 @@ class Comercial extends Component {
             <h1>Business Intelligence</h1>
 
             <Zoom cascade right>
-              <div className="info-box" style={{marginTop:'5px'}}>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+              <div className="info-box" style={{ marginTop: '5px' }}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <p>
                     Con la información de tu mercado te proponemos grandes
                     caminos.
                   </p>
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={bi1} alt="" width={250} className="imgCheck" />
                 </div>
 
-                <div className="info-item" style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
                   <img src={bi2} alt="" width={250} className="imgCheck" />
                 </div>
-                <div className="info-item" style={{marginBottom:'5px'}}>
-                  <p style={{marginBottom:'5px'}}>
+                <div className="info-item" style={{ marginBottom: '5px' }}>
+                  <p style={{ marginBottom: '5px' }}>
                     Con base en métodos estadisticos de forecasting y analisis
                     de tendencias, convertimos los datos que generan tus
                     servicios en estrategias que incrementan las ventas y la
@@ -362,7 +369,7 @@ class Comercial extends Component {
                     className="icon-arrow-left regresar float-left"
                     onClick={() => (window.location.href = '/#Productos')}
                   >
-                    
+                    <span className="icon-arrow-left"></span>
                   </p>
                 </div>
               </div>
