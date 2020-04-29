@@ -39,7 +39,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Outsourcing"
                     src={C1W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Tecnologia/1')}
                   />
                   <p>Avaya</p>
@@ -49,7 +49,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={C2W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Tecnologia/2')}
                   />
                   <p>Genesys</p>
@@ -59,7 +59,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={CAPP}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Tecnologia/5')}
                   />
                   <p>Aplicación CCS</p>
@@ -74,7 +74,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Calidad"
                     src={C3W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Tecnologia/3')}
                   />
                   <p>Mitrol</p>
@@ -84,7 +84,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={C4W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Tecnologia/4')}
                   />
                   <p>S1 Gateway</p>
@@ -94,7 +94,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={C5W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Tecnologia/6')}
                   />
                   <p>Dashboards Online</p>
