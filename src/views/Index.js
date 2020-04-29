@@ -16,6 +16,7 @@ import SIMClientes from "./Areas/SIM_Clientes";
 import CCSIndex from "./Areas/CCS_Index";
 import Socios from "./Areas/CCS_Socios";
 import CCSServicios from "./Areas/CCS_Servicios";
+import CCSUniversidad from "./Areas/CCS_Universidad";
 import CCSCertificaciones from "./Areas/CCS_Certificaciones";
 import CCSTecnologia from "./Areas/CCS_Tecnologia";
 import CCSClientes from "./Areas/CCS_Clientes";
@@ -52,6 +53,7 @@ class Index extends Component {
             "CCS",
             "Socios",
             "Productos",
+            "Universidad",
             "Certificaciones",
             "Tecnologia",
             "Clientes"
@@ -86,6 +88,7 @@ class Index extends Component {
                 <CCSIndex />
                 <Socios />
                 <CCSServicios />
+                <CCSUniversidad />
                 <CCSCertificaciones />
                 <CCSTecnologia />
                 <CCSClientes />

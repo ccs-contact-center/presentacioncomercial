@@ -10,7 +10,7 @@ html {
 
 p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   font-weight: 330;
   text-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
 }
@@ -337,9 +337,9 @@ hr {
   border: solid 2px rgba(255, 255, 255, 0.7);
   filter: saturate(0%);
   box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
-  width: 17vw !important;
-  height: 17vw !important;
-  margin-left: 27vw;
+  width: 11.5vw !important;
+  height: 11.5vw !important;
+  margin-left: 33vw;
 }
 
 .avatarContent p {
