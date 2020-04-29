@@ -28,16 +28,19 @@ class Comercial extends Component {
             <br />
             <Zoom cascade>
               <div className="horizontalContent">
-                <div className="avatarcontent">
+                <div className="avatarcontent ">
+
+                 
                   <Avatar
                     style={{ cursor: 'pointer' }}
                     alt="Outsourcing"
                     src={C1W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() =>
                       (window.location.href = '/#Certificaciones/1')
                     }
                   />
+
                   <p>ISO 9001</p>
                 </div>
                 <div className="avatarcontent">
@@ -45,7 +48,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={C2W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() =>
                       (window.location.href = '/#Certificaciones/2')
                     }
@@ -57,7 +60,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Consultoría"
                     src={C3W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() =>
                       (window.location.href = '/#Certificaciones/3')
                     }
@@ -74,7 +77,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Calidad"
                     src={C4W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() =>
                       (window.location.href = '/#Certificaciones/4')
                     }
@@ -86,7 +89,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={C5W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() =>
                       (window.location.href = '/#Certificaciones/5')
                     }
@@ -98,7 +101,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Business Intelligence"
                     src={C6W}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() =>
                       (window.location.href = '/#Certificaciones/6')
                     }
@@ -146,7 +149,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                 <span className="icon-arrow-left"></span>
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -161,7 +164,7 @@ class Comercial extends Component {
               }}
             />
             <br />
-           
+
             <p>
               La seguridad de tu información es fundamental para nosotros, por
               lo cual contamos con la certificación ISO 27001, que garantiza la
@@ -188,15 +191,13 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                 <span className="icon-arrow-left"></span>
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
           <div className="slide">
             <br />
-           
-            
-           
+
             <img
               src={C3T}
               width={300}
@@ -223,7 +224,7 @@ class Comercial extends Component {
               <li>Incrementa la productividad</li>
             </ul>
             <br />
-          
+
             <div>
               <p
                 style={{
@@ -234,15 +235,14 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                 <span className="icon-arrow-left"></span>
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
           <div className="slide">
             <br />
             <br />
-           
-            
+
             <img
               src={C4T}
               width={300}
@@ -280,7 +280,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                 <span className="icon-arrow-left"></span>
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -288,7 +288,7 @@ class Comercial extends Component {
             <br />
             <br />
             <br />
-            
+
             <Avatar
               alt="Capacitación"
               src={C5W}
@@ -319,7 +319,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                 <span className="icon-arrow-left"></span>
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
@@ -327,7 +327,7 @@ class Comercial extends Component {
             <br />
             <br />
             <br />
-            
+
             <Avatar
               alt="Capacitación"
               src={C6W}
@@ -358,7 +358,7 @@ class Comercial extends Component {
                 className="icon-arrow-left regresar float-left"
                 onClick={() => (window.location.href = '/#Certificaciones')}
               >
-                 <span className="icon-arrow-left"></span>
+                <span className="icon-arrow-left"></span>
               </p>
             </div>
           </div>
