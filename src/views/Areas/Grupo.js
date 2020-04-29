@@ -25,7 +25,7 @@ class Comercial extends Component {
                  style={{cursor:'pointer'}}
                   alt="SIM"
                   src={SIM}
-                  className="avatarBrand"
+                  className="avatarBrand hoverbtn"
                   onClick={() => (window.location.href = "/#GrupoSIM")}
                 />
                 <p>Información del Grupo</p>
@@ -35,7 +35,7 @@ class Comercial extends Component {
                  style={{cursor:'pointer'}}
                   alt="Vivian Cheja"
                   src={CCS}
-                  className="avatarBrand"
+                  className="avatarBrand hoverbtn"
                   onClick={() => (window.location.href = "/#CCS")}
                 />
                 <p>CCS</p>
