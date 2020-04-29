@@ -28,7 +28,7 @@ class Comercial extends Component {
                         style={{ cursor: 'pointer' }}
                         alt="Outsourcing"
                         src={avant}
-                        className="avatarSE"
+                        className="avatarSE hoverbtn"
                         onClick={() => (window.location.href = '/#SimBrands/1')}
                       />
                       <p>Avant</p>
@@ -38,7 +38,7 @@ class Comercial extends Component {
                         style={{ cursor: 'pointer' }}
                         alt="Cosourcing"
                         src={sim}
-                        className="avatarSE"
+                        className="avatarSE hoverbtn"
                         onClick={() => (window.location.href = '/#SimBrands/2')}
                       />
                       <p>SEAC</p>
@@ -52,7 +52,7 @@ class Comercial extends Component {
                         style={{ cursor: 'pointer' }}
                         alt="Calidad"
                         src={seac}
-                        className="avatarSE"
+                        className="avatarSE hoverbtn"
                         onClick={() => (window.location.href = '/#SimBrands/3')}
                       />
                       <p>Sim Tecnología</p>
@@ -62,7 +62,7 @@ class Comercial extends Component {
                         style={{ cursor: 'pointer' }}
                         alt="Capacitación"
                         src={ccs}
-                        className="avatarSE"
+                        className="avatarSE hoverbtn"
                         onClick={() => (window.location.href = '/#CCS')}
                       />
                       <p>CCS</p>
