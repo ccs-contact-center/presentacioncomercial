@@ -41,7 +41,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Outsourcing"
                     src={S1}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Productos/1')}
                   />
                   <p>Outsourcing</p>
@@ -51,7 +51,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Cosourcing"
                     src={S2}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Productos/2')}
                   />
                   <p>Cosourcing</p>
@@ -61,7 +61,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Consultoría"
                     src={S3}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Productos/3')}
                   />
                   <p>Consultoría</p>
@@ -76,7 +76,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Calidad"
                     src={S4}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Productos/4')}
                   />
                   <p>Calidad</p>
@@ -86,7 +86,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Capacitación"
                     src={S5}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Productos/5')}
                   />
                   <p>Capacitación</p>
@@ -96,7 +96,7 @@ class Comercial extends Component {
                     style={{ cursor: 'pointer' }}
                     alt="Business Intelligence"
                     src={S6}
-                    className="avatarS"
+                    className="avatarS hoverbtn"
                     onClick={() => (window.location.href = '/#Productos/6')}
                   />
                   <p>Business Intelligence</p>
