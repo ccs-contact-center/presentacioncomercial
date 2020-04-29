@@ -26,7 +26,7 @@ class Comercial extends Component {
                     style={{cursor:'pointer'}}
                     alt="Jerónimo Fernández"
                     src={avatar1}
-                    className="avatar"
+                    className="avatar hoverbtn"
                     onClick={() => (window.location.href = "/#Socios/1")}
                   />
                  </div>
@@ -37,7 +37,7 @@ class Comercial extends Component {
                     style={{cursor:'pointer'}}
                     alt="Vivian Cheja"
                     src={avatar2}
-                    className="avatar"
+                    className="avatar hoverbtn"
                     onClick={() => (window.location.href = "/#Socios/2")}
                   />
                   <p>Vivian Cheja Dabbah</p>
