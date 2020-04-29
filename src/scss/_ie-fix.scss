@@ -10,66 +10,6 @@ html body .app.flex-row.align-items-center {
   }
 }
 
-.centrado-fila {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  /*COMPATIBILIDAD CON EXPLORER*/
-  display: -ms-flexbox;
-  -ms-flex-direction: row;
-   -ms-flex-align: center;
-  -ms-flex-pack: center;
-}
-
-.regresar:hover{
-  color: white !important;
-  
-}
-.regresar2:hover{
-  color: rgb(201, 21, 21) !important;
-}
-
-.zoom:hover {
-  transform: scale(1.6); 
-}
-
-.bg-n1{
-  background-color: black;
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-}
-
-.bg-n2{
-  background-color: rgb(36, 35, 35);
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  opacity: .9;
-}
-.bg-n3{
-  background-color: rgb(70, 69, 69);
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  opacity: .7;
-}
-.bg-n4{
-  background-color: rgb(107, 107, 107);
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  opacity: .5;
-}
-
-.hoverbtn:hover{
-    padding: 13px;
-    border-radius: 100%;
-    background-color:#b91e39;
-}
 //  div{
 //    border: solid 1px;
 //  }
